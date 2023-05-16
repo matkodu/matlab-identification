@@ -1,0 +1,14 @@
+*.asv
+*.m~
+*.mex*
+*.mlappinstall
+*.mltbx
+*.autosave
+*.slxc
+
+helpsearch*/
++bus_conv_fcns
+slprj/
+sccprj/
+codegen/
+
