@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/DockingService.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    struct DockingService_Request {
+      @verbatim (language="comment", text=
+        " Dock or undock")
+      boolean docking_action;
+
+      @verbatim (language="comment", text=
+        " 0 - 3")
+      uint8 docking_slot;
+    };
+    struct DockingService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

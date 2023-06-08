@@ -1,0 +1,84 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from labust_msgs/action/GoToPoint.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PointStamped.idl"
+
+module labust_msgs {
+  module action {
+    typedef boolean boolean__6[6];
+    module GoToPoint_Goal_Constants {
+      const uint8 GO2POINT_UA = 0;
+      const uint8 GO2POINT_FA = 1;
+      const uint8 GO2POINT_FA_HDG = 2;
+      const uint8 CONSTANT = 0;
+      const uint8 HEADING_TOPIC = 1;
+      const uint8 SPEED_TOPIC = 2;
+      const uint8 ALL_TOPIC = 3;
+    };
+    @verbatim (language="comment", text=
+      "## go2point action ###")
+    struct GoToPoint_Goal {
+      @verbatim (language="comment", text=
+        "## Primitive subtype and associated constants (flags)")
+      uint8 subtype;
+
+      @verbatim (language="comment", text=
+        "## Reference type and associated constants (flags)")
+      uint8 ref_type;
+
+      @verbatim (language="comment", text=
+        "## The goal" "\n"
+        " Desired start point")
+      geometry_msgs::msg::PointStamped t1;
+
+      @verbatim (language="comment", text=
+        " Desired end point")
+      geometry_msgs::msg::PointStamped t2;
+
+      @verbatim (language="comment", text=
+        " The desired heading for overactuated vehicles")
+      float heading;
+
+      @verbatim (language="comment", text=
+        " The desired forward speed")
+      float speed;
+
+      @verbatim (language="comment", text=
+        " The victory radius")
+      float victory_radius;
+
+      string heading_topic;
+
+      string speed_topic;
+
+      boolean__6 axis_enable;
+
+      boolean altitude;
+    };
+    struct GoToPoint_Result {
+      @verbatim (language="comment", text=
+        "## The result" "\n"
+        " Finish point")
+      geometry_msgs::msg::PointStamped position;
+
+      @verbatim (language="comment", text=
+        " Distance to end point")
+      float distance;
+
+      @verbatim (language="comment", text=
+        " Bearing to end point")
+      float bearing;
+    };
+    struct GoToPoint_Feedback {
+      @verbatim (language="comment", text=
+        "## The feedback" "\n"
+        " Distance to end point")
+      float distance;
+
+      @verbatim (language="comment", text=
+        " Bearing to end point")
+      float bearing;
+    };
+  };
+};

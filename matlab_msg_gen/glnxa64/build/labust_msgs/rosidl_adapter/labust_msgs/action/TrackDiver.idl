@@ -1,0 +1,68 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from labust_msgs/action/TrackDiver.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module labust_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "## The goal" "\n"
+      " Parameters")
+    struct TrackDiver_Goal {
+      float radius;
+
+      float vertical_offset;
+
+      geometry_msgs::msg::Point guidance_target;
+
+      @verbatim (language="comment", text=
+        " Decision flags")
+      boolean guidance_enable;
+
+      boolean wrapping_enable;
+
+      boolean streamline_orientation;
+
+      boolean fov_guidance;
+
+      @verbatim (language="comment", text=
+        " Topics")
+      string guidance_topic;
+
+      string radius_topic;
+    };
+    struct TrackDiver_Result {
+      @verbatim (language="comment", text=
+        "# The result")
+      boolean success;
+    };
+    struct TrackDiver_Feedback {
+      @verbatim (language="comment", text=
+        "# The feedback" "\n"
+        " Desired monitoring position")
+      double mu_r;
+
+      @verbatim (language="comment", text=
+        " Desired guidance position")
+      double gamma_r;
+
+      @verbatim (language="comment", text=
+        " Operational radius")
+      double operational_radius;
+
+      @verbatim (language="comment", text=
+        " Desired heading towards diver")
+      double delta_r;
+
+      @verbatim (language="comment", text=
+        " Desired heading for v=0")
+      double zeta_r;
+
+      @verbatim (language="comment", text=
+        " Tracking error")
+      geometry_msgs::msg::Vector3 ned_tracking_error;
+    };
+  };
+};

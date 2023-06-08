@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/ManualSelect.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    typedef int32 int32__6[6];
+    module ManualSelect_Request_Constants {
+      const int32 X = 0;
+      const int32 Y = 1;
+      const int32 Z = 2;
+      const int32 K = 3;
+      const int32 M = 4;
+      const int32 N = 5;
+      const int32 DISABLED = 0;
+      const int32 EFFORT = 1;
+      const int32 SPEED = 2;
+      const int32 POSITION = 3;
+    };
+    @verbatim (language="comment", text=
+      "# DOF accessor")
+    struct ManualSelect_Request {
+      @verbatim (language="comment", text=
+        "# Select manual")
+      int32__6 use_generator;
+    };
+    struct ManualSelect_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

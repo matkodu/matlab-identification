@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/Go2PointUA.msg
+// generated code does not contain a copyright notice
+
+#include "auv_msgs/msg/NED.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Primitive structure")
+    struct Go2PointUA {
+      auv_msgs::msg::NED point;
+
+      float speed;
+
+      float victory_radius;
+    };
+  };
+};

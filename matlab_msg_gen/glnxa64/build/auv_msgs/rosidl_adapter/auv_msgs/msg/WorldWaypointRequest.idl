@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auv_msgs/msg/WorldWaypointRequest.msg
+// generated code does not contain a copyright notice
+
+#include "auv_msgs/msg/NED.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module auv_msgs {
+  module msg {
+    typedef boolean boolean__6[6];
+    @verbatim (language="comment", text=
+      " World frame (absolute) waypoint request to pilot.")
+    struct WorldWaypointRequest {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Waypoint request")
+      auv_msgs::msg::NED position;
+
+      geometry_msgs::msg::Vector3 orientation;
+
+      @verbatim (language="comment", text=
+        " Axes of control to disable, in body frame." "\n"
+        " x y z r p y")
+      boolean__6 disable_axis;
+
+      @verbatim (language="comment", text=
+        " Tolerances are in body frame, zero indicates pilot default should be used.")
+      geometry_msgs::msg::Vector3 position_tolerance;
+
+      geometry_msgs::msg::Vector3 orientation_tolerance;
+
+      @verbatim (language="comment", text=
+        " Capping speeds in 6DOF")
+      geometry_msgs::msg::Twist twist_limit;
+    };
+  };
+};

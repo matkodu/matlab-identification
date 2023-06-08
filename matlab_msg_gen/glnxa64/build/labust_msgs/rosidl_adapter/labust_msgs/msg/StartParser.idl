@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/StartParser.msg
+// generated code does not contain a copyright notice
+
+#include "auv_msgs/msg/NED.idl"
+
+module labust_msgs {
+  module msg {
+    module StartParser_Constants {
+      const uint8 FILENAME = 0;
+      const uint8 STRING = 1;
+    };
+    @verbatim (language="comment", text=
+      "Parsing options")
+    struct StartParser {
+      @verbatim (language="comment", text=
+        " Mission file passing method")
+      uint8 method;
+
+      @verbatim (language="comment", text=
+        " mission xml file name or xml string")
+      string mission_data;
+
+      @verbatim (language="comment", text=
+        " Mission options" "\n"
+        " Start mission from given or current position if true")
+      boolean relative;
+
+      @verbatim (language="comment", text=
+        " Start position in NED frame")
+      auv_msgs::msg::NED start_position;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+# Primitive structure
+auv_msgs/NED point
+float32 speed
+float32 victory_radius

@@ -1,0 +1,40 @@
+function ros1msg = labust_msgs_msg_EtaReference_2To1_Converter(message,ros1msg)
+%labust_msgs_msg_EtaReference_2To1_Converter passes data of ROS 2 message to ROS message.
+% Copyright 2019 The MathWorks, Inc.    
+ros1msg.Header.Stamp.Sec = message.header.stamp.sec;
+ros1msg.Header.Stamp.Nsec = message.header.stamp.nanosec;
+ros1msg.Header.FrameId = message.header.frame_id{1};
+ros1msg.IdentityToken = message.identity_token{1};
+ros1msg.Reference.Header.Stamp.Sec = message.reference.header.stamp.sec;
+ros1msg.Reference.Header.Stamp.Nsec = message.reference.header.stamp.nanosec;
+ros1msg.Reference.Header.FrameId = message.reference.header.frame_id{1};
+ros1msg.Reference.GlobalPosition.Latitude = message.reference.global_position.latitude;
+ros1msg.Reference.GlobalPosition.Longitude = message.reference.global_position.longitude;
+ros1msg.Reference.GlobalPosition.Altitude = message.reference.global_position.altitude;
+ros1msg.Reference.Origin.Latitude = message.reference.origin.latitude;
+ros1msg.Reference.Origin.Longitude = message.reference.origin.longitude;
+ros1msg.Reference.Origin.Altitude = message.reference.origin.altitude;
+ros1msg.Reference.Position.North = message.reference.position.north;
+ros1msg.Reference.Position.East = message.reference.position.east;
+ros1msg.Reference.Position.Depth = message.reference.position.depth;
+ros1msg.Reference.Altitude = message.reference.altitude;
+ros1msg.Reference.BodyVelocity.X = message.reference.body_velocity.x;
+ros1msg.Reference.BodyVelocity.Y = message.reference.body_velocity.y;
+ros1msg.Reference.BodyVelocity.Z = message.reference.body_velocity.z;
+ros1msg.Reference.SeafloorVelocity.X = message.reference.seafloor_velocity.x;
+ros1msg.Reference.SeafloorVelocity.Y = message.reference.seafloor_velocity.y;
+ros1msg.Reference.SeafloorVelocity.Z = message.reference.seafloor_velocity.z;
+ros1msg.Reference.Orientation.X = message.reference.orientation.x;
+ros1msg.Reference.Orientation.Y = message.reference.orientation.y;
+ros1msg.Reference.Orientation.Z = message.reference.orientation.z;
+ros1msg.Reference.OrientationRate.X = message.reference.orientation_rate.x;
+ros1msg.Reference.OrientationRate.Y = message.reference.orientation_rate.y;
+ros1msg.Reference.OrientationRate.Z = message.reference.orientation_rate.z;
+ros1msg.Reference.PositionVariance.North = message.reference.position_variance.north;
+ros1msg.Reference.PositionVariance.East = message.reference.position_variance.east;
+ros1msg.Reference.PositionVariance.Depth = message.reference.position_variance.depth;
+ros1msg.Reference.OrientationVariance.X = message.reference.orientation_variance.x;
+ros1msg.Reference.OrientationVariance.Y = message.reference.orientation_variance.y;
+ros1msg.Reference.OrientationVariance.Z = message.reference.orientation_variance.z;
+ros1msg.Reference.Status = message.reference.status;
+end

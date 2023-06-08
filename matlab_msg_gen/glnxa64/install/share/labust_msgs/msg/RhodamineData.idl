@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/RhodamineData.msg
+// generated code does not contain a copyright notice
+
+#include "geographic_msgs/msg/GeoPoint.idl"
+#include "labust_msgs/msg/RhodamineAdc.idl"
+#include "std_msgs/msg/Header.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " The header data")
+    struct RhodamineData {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " The Rhodamine sample location")
+      geographic_msgs::msg::GeoPoint position;
+
+      @verbatim (language="comment", text=
+        " The Rhodamine adc values")
+      labust_msgs::msg::RhodamineAdc adc;
+    };
+  };
+};

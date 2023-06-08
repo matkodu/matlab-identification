@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/GoalDescriptor.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    module GoalDescriptor_Constants {
+      const uint32 PRIORITY_LOW = 0;
+      const uint32 PRIORITY_NORMAL = 10;
+      const uint32 PRIORITY_AVOID_OBSTACLE = 20;
+      const uint32 PRIORITY_EMERGENCY = 30;
+      const uint32 PRIORITY_MANUAL_OVERRIDE = 40;
+    };
+    @verbatim (language="comment", text=
+      " Contains values common to all waypoint request and status messages." "\n"
+      " Waypoint goals with higher priority trump lower priority goals. For" "\n"
+      " goals of the same priority, the pilot should follow the latest" "\n"
+      " received.")
+    struct GoalDescriptor {
+      @verbatim (language="comment", text=
+        " Name of the requesting node, used with id to identify the request.")
+      string requester;
+
+      @verbatim (language="comment", text=
+        " Goal ID for the request")
+      uint32 id;
+
+      uint32 priority;
+    };
+  };
+};

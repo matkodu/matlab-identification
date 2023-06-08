@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auv_msgs/msg/VehiclePose.msg
+// generated code does not contain a copyright notice
+
+#include "auv_msgs/msg/NED.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module auv_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Position and orientation of the vehicle.")
+    struct VehiclePose {
+      string id;
+
+      auv_msgs::msg::NED position;
+
+      @verbatim (language="comment", text=
+        " R P Y")
+      geometry_msgs::msg::Vector3 orientation;
+    };
+  };
+};

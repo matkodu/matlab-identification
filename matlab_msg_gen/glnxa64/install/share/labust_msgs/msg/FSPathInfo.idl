@@ -1,0 +1,61 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/FSPathInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "labust_msgs/msg/RPY.idl"
+#include "std_msgs/msg/Header.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "## The Frenet-Serret path command")
+    struct FSPathInfo {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "# Yaw command")
+      double delta_r;
+
+      @verbatim (language="comment", text=
+        "# Yaw slack")
+      double k;
+
+      @verbatim (language="comment", text=
+        "# Path state variables" "\n"
+        " Desired path position")
+      double xi_r;
+
+      @verbatim (language="comment", text=
+        " Derivative of the desired path position")
+      double dxi_r;
+
+      @verbatim (language="comment", text=
+        " Current path position")
+      double pi;
+
+      @verbatim (language="comment", text=
+        " Current path position error")
+      double pi_tilda;
+
+      @verbatim (language="comment", text=
+        " FS speed in NED")
+      geometry_msgs::msg::Point dr_p;
+
+      @verbatim (language="comment", text=
+        "# FS location and orientatino in NED")
+      geometry_msgs::msg::Point position;
+
+      labust_msgs::msg::RPY orientation;
+
+      @verbatim (language="comment", text=
+        "# Path information" "\n"
+        " Path curvature")
+      double curvature;
+
+      @verbatim (language="comment", text=
+        " Path torsion")
+      double torsion;
+    };
+  };
+};

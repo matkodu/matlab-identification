@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/RelayControl.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    struct RelayControl_Request {
+      @verbatim (language="comment", text=
+        " Relay number")
+      uint8 relay_num;
+
+      @verbatim (language="comment", text=
+        " Relay state")
+      boolean relay_state;
+
+      @verbatim (language="comment", text=
+        " Relay timeout")
+      uint8 timeout;
+    };
+    struct RelayControl_Response {
+      @verbatim (language="comment", text=
+        " Result of evaluation")
+      boolean result;
+    };
+  };
+};

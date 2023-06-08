@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/NanomodemRange.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " add timestamp")
+    struct NanomodemRange {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " measured range from nanomodem id")
+      int32 range;
+
+      @verbatim (language="comment", text=
+        " measured range in meters")
+      float range_m;
+
+      int16 id;
+    };
+  };
+};

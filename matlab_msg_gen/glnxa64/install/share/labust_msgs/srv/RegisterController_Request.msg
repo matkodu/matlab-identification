@@ -1,0 +1,26 @@
+int32 SURGE=0
+int32 SWAY=1
+int32 HEAVE=2
+int32 ROLL=3
+int32 PITCH=4
+int32 YAW=5
+
+#Controller unique name
+string name
+#The service name for enabling the controller
+string srv_name
+#Used primary forces and torques
+# 0 - not used / don't care
+# 1 - used
+int32[6] used_dofs
+#Used controllers
+string[] used_cnt
+
+#These are for future use to allow
+#fine control over active sensor
+#Used speed and position estimates
+# 0 - not used / don't care
+# 1 - used
+int32[12] used_meas
+#Used derived estimates
+string[] used_derived

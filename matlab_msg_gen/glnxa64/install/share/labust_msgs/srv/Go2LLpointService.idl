@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/Go2LLpointService.srv
+// generated code does not contain a copyright notice
+
+#include "geographic_msgs/msg/GeoPoint.idl"
+
+module labust_msgs {
+  module srv {
+    struct Go2LLpointService_Request {
+      geographic_msgs::msg::GeoPoint point;
+
+      double speed;
+    };
+    struct Go2LLpointService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

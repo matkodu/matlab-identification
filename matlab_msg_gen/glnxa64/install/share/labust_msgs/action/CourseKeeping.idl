@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from labust_msgs/action/CourseKeeping.action
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module action {
+    module CourseKeeping_Goal_Constants {
+      const uint8 COURSE_KEEPING_UA = 0;
+      const uint8 COURSE_KEEPING_FA = 1;
+      const uint8 COURSE_KEEPING_FA_HDG = 2;
+      const uint8 CONSTANT = 0;
+      const uint8 HEADING_TOPIC = 1;
+      const uint8 SPEED_TOPIC = 2;
+      const uint8 ALL_TOPIC = 3;
+    };
+    @verbatim (language="comment", text=
+      "## course_keeping action ###")
+    struct CourseKeeping_Goal {
+      @verbatim (language="comment", text=
+        "## Primitive subtype and associated constants (flags)")
+      uint8 subtype;
+
+      @verbatim (language="comment", text=
+        "## Reference type and associated constants (flags)")
+      uint8 ref_type;
+
+      @verbatim (language="comment", text=
+        "## The goal" "\n"
+        " Desired course to keep")
+      float course;
+
+      @verbatim (language="comment", text=
+        " The desired forward speed, setting the forward speed=0 will result in heading keeping")
+      float speed;
+
+      @verbatim (language="comment", text=
+        " The desired yaw for overactuated vehicles")
+      float yaw;
+
+      sequence<string> topics;
+    };
+    struct CourseKeeping_Result {
+      @verbatim (language="comment", text=
+        "## The result" "\n"
+        " The success flag")
+      int32 success;
+    };
+    struct CourseKeeping_Feedback {
+      @verbatim (language="comment", text=
+        "## The feedback" "\n"
+        " The current feedback")
+      int32 feedback;
+    };
+  };
+};

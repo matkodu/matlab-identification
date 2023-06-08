@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/DynamicPositioningLLService.srv
+// generated code does not contain a copyright notice
+
+#include "geographic_msgs/msg/GeoPoint.idl"
+
+module labust_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Parameters" "\n"
+      " Position")
+    struct DynamicPositioningLLService_Request {
+      geographic_msgs::msg::GeoPoint point;
+
+      @verbatim (language="comment", text=
+        " Orientation")
+      double heading;
+    };
+    struct DynamicPositioningLLService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

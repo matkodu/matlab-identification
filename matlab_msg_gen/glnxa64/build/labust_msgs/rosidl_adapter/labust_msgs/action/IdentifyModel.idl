@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from labust_msgs/action/IdentifyModel.action
+// generated code does not contain a copyright notice
+
+#include "labust_msgs/msg/IdentModel.idl"
+
+module labust_msgs {
+  module action {
+    module IdentifyModel_Goal_Constants {
+      const int32 X = 1;
+      const int32 Y = 2;
+      const int32 Z = 4;
+      const int32 K = 8;
+      const int32 M = 16;
+      const int32 N = 32;
+      const int32 MODEL_TF = 0;
+    };
+    struct IdentifyModel_Goal {
+      @verbatim (language="comment", text=
+        "The identification GOAL" "\n"
+        " Desired DOFs to identify")
+      int32 dof;
+    };
+    struct IdentifyModel_Result {
+      @verbatim (language="comment", text=
+        "The identification result")
+      sequence<labust_msgs::msg::IdentModel> ident_models;
+    };
+    struct IdentifyModel_Feedback {
+      @verbatim (language="comment", text=
+        "The feedback result" "\n"
+        " current DOFs")
+      int32 dof;
+
+      float progress;
+
+      float error;
+
+      @verbatim (language="comment", text=
+        " Average certainty error")
+      string additional_data;
+    };
+  };
+};

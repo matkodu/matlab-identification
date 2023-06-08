@@ -1,0 +1,36 @@
+function [data, info] = routePath
+%RoutePath gives an empty data for geographic_msgs/RoutePath
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'geographic_msgs/RoutePath';
+[data.header, info.header] = ros.internal.ros2.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.network, info.network] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.network.MLdataType = 'struct';
+[data.segments, info.segments] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.segments.MLdataType = 'struct';
+info.segments.MaxLen = NaN;
+info.segments.MinLen = 0;
+[data.props, info.props] = ros.internal.ros2.custommessages.geographic_msgs.keyValue;
+info.props.MLdataType = 'struct';
+info.props.MaxLen = NaN;
+info.props.MinLen = 0;
+info.MessageType = 'geographic_msgs/RoutePath';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,12);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.stamp';
+info.MatPath{3} = 'header.stamp.sec';
+info.MatPath{4} = 'header.stamp.nanosec';
+info.MatPath{5} = 'header.frame_id';
+info.MatPath{6} = 'network';
+info.MatPath{7} = 'network.uuid';
+info.MatPath{8} = 'segments';
+info.MatPath{9} = 'segments.uuid';
+info.MatPath{10} = 'props';
+info.MatPath{11} = 'props.key';
+info.MatPath{12} = 'props.value';

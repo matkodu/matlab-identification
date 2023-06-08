@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/RequestControl.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    typedef int32 int32__6[6];
+    module RequestControl_Request_Constants {
+      const int32 DONTCARE = 0;
+      const int32 DISABLEAXIS = 1;
+      const int32 MANUALAXIS = 2;
+      const int32 CONTROLAXIS = 3;
+      const int32 IDENTAXIS = 4;
+      const int32 DIRECTAXIS = 5;
+      const int32 U = 0;
+      const int32 V = 1;
+      const int32 W = 2;
+      const int32 P = 3;
+      const int32 Q = 4;
+      const int32 R = 5;
+      const int32 X = 6;
+      const int32 Y = 7;
+      const int32 Z = 8;
+      const int32 K = 9;
+      const int32 M = 10;
+      const int32 N = 11;
+    };
+    @verbatim (language="comment", text=
+      "Operation modes")
+    struct RequestControl_Request {
+      @verbatim (language="comment", text=
+        " for introspection only")
+      string identity;
+
+      int32__6 nu_desired_mode;
+
+      int32__6 tau_desired_mode;
+    };
+    struct RequestControl_Response {
+      boolean success;
+
+      string identity_token;
+
+      string message;
+    };
+  };
+};

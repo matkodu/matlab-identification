@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/Go2depthService.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    struct Go2depthService_Request {
+      double depth;
+    };
+    struct Go2depthService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

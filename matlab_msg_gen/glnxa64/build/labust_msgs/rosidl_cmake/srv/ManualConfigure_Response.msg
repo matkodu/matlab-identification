@@ -1,0 +1,2 @@
+
+labust_msgs/ManualConfiguration current_configuration

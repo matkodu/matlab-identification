@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/MissionSetup.msg
+// generated code does not contain a copyright notice
+
+#include "auv_msgs/msg/NED.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " ROS message used for initializing mission execution enviroment")
+    struct MissionSetup {
+      @verbatim (language="comment", text=
+        " Initial mission parameters")
+      string mission_params;
+
+      @verbatim (language="comment", text=
+        " Initial list of events")
+      string mission_events;
+
+      @verbatim (language="comment", text=
+        " Initial mission offset from origin of NED frame")
+      auv_msgs::msg::NED mission_offset;
+    };
+  };
+};

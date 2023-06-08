@@ -1,0 +1,12 @@
+# Controller parent name - for multi-controller nodes
+string parent
+# Controller unique name
+string name
+# If the controller has a manual mode
+bool has_manual
+# Used tau
+int8[6] used_tau
+# Used other controllers by name
+string[] used_other
+# Used resources and required controllers
+string[] used_resources

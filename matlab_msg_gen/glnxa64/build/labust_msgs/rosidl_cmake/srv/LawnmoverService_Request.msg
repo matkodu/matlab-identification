@@ -1,0 +1,14 @@
+float32 width
+float32 length
+geometry_msgs/Point start_position
+float32 speed
+float32 victory_radius
+float32 horizontal_step
+float32 bearing
+
+# Other possible options to introduce.
+#float32 alternation_percent
+#float32 curve_offset
+#bool square_curve
+#double crossAngle
+#bool invertY

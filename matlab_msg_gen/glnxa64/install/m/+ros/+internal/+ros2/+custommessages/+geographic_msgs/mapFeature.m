@@ -1,0 +1,29 @@
+function [data, info] = mapFeature
+%MapFeature gives an empty data for geographic_msgs/MapFeature
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'geographic_msgs/MapFeature';
+[data.id, info.id] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.id.MLdataType = 'struct';
+[data.components, info.components] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.components.MLdataType = 'struct';
+info.components.MaxLen = NaN;
+info.components.MinLen = 0;
+[data.props, info.props] = ros.internal.ros2.custommessages.geographic_msgs.keyValue;
+info.props.MLdataType = 'struct';
+info.props.MaxLen = NaN;
+info.props.MinLen = 0;
+info.MessageType = 'geographic_msgs/MapFeature';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,7);
+info.MatPath{1} = 'id';
+info.MatPath{2} = 'id.uuid';
+info.MatPath{3} = 'components';
+info.MatPath{4} = 'components.uuid';
+info.MatPath{5} = 'props';
+info.MatPath{6} = 'props.key';
+info.MatPath{7} = 'props.value';

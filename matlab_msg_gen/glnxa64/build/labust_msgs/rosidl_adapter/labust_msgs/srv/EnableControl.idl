@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/EnableControl.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    struct EnableControl_Request {
+      boolean enable;
+
+      string identity_token;
+
+      string control_name;
+    };
+    struct EnableControl_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

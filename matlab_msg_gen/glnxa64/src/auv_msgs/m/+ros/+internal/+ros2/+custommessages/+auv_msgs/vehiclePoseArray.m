@@ -1,0 +1,33 @@
+function [data, info] = vehiclePoseArray
+%VehiclePoseArray gives an empty data for auv_msgs/VehiclePoseArray
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'auv_msgs/VehiclePoseArray';
+[data.header, info.header] = ros.internal.ros2.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.poses, info.poses] = ros.internal.ros2.custommessages.auv_msgs.vehiclePose;
+info.poses.MLdataType = 'struct';
+info.poses.MaxLen = NaN;
+info.poses.MinLen = 0;
+info.MessageType = 'auv_msgs/VehiclePoseArray';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,15);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.stamp';
+info.MatPath{3} = 'header.stamp.sec';
+info.MatPath{4} = 'header.stamp.nanosec';
+info.MatPath{5} = 'header.frame_id';
+info.MatPath{6} = 'poses';
+info.MatPath{7} = 'poses.id';
+info.MatPath{8} = 'poses.position';
+info.MatPath{9} = 'poses.position.north';
+info.MatPath{10} = 'poses.position.east';
+info.MatPath{11} = 'poses.position.depth';
+info.MatPath{12} = 'poses.orientation';
+info.MatPath{13} = 'poses.orientation.x';
+info.MatPath{14} = 'poses.orientation.y';
+info.MatPath{15} = 'poses.orientation.z';

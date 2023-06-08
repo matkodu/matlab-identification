@@ -1,0 +1,9 @@
+bool docking_action # Dock or undock
+uint8 docking_slot # 0 - 3 
+float32 search_yaw_rate
+float32 max_yaw_rate
+float32 max_surge_speed
+float32 surge_stdev
+
+---
+bool status # Status of activation

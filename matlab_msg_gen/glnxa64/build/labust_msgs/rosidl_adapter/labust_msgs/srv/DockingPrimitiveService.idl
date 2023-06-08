@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/DockingPrimitiveService.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    struct DockingPrimitiveService_Request {
+      @verbatim (language="comment", text=
+        " Dock or undock")
+      boolean docking_action;
+
+      @verbatim (language="comment", text=
+        " 0 - 3")
+      uint8 docking_slot;
+
+      float search_yaw_rate;
+
+      float max_yaw_rate;
+
+      float max_surge_speed;
+
+      float surge_stdev;
+    };
+    struct DockingPrimitiveService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

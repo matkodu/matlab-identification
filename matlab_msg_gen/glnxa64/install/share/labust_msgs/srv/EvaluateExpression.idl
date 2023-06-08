@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/EvaluateExpression.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    struct EvaluateExpression_Request {
+      @verbatim (language="comment", text=
+        " String to evaluate")
+      string expression;
+    };
+    struct EvaluateExpression_Response {
+      @verbatim (language="comment", text=
+        " Result of evaluation")
+      double result;
+    };
+  };
+};

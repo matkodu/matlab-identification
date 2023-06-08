@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/StartNeptusParser.msg
+// generated code does not contain a copyright notice
+
+#include "geographic_msgs/msg/GeoPoint.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Neptus - Parsing options")
+    struct StartNeptusParser {
+      @verbatim (language="comment", text=
+        " mission archive file name")
+      string file_name;
+
+      @verbatim (language="comment", text=
+        " relative or absolute points flag")
+      boolean relative;
+
+      @verbatim (language="comment", text=
+        " custom start position flag")
+      boolean custom_start_flag;
+
+      geographic_msgs::msg::GeoPoint origin;
+
+      geographic_msgs::msg::GeoPoint custom_start;
+
+      @verbatim (language="comment", text=
+        " Primitive params")
+      boolean underactuated;
+
+      float speed;
+
+      float heading;
+
+      float victory_radius;
+    };
+  };
+};

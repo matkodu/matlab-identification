@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/RegisterControllerV3.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    typedef int8 int8__6[6];
+    @verbatim (language="comment", text=
+      " Controller parent name - for multi-controller nodes")
+    struct RegisterControllerV3_Request {
+      string parent;
+
+      @verbatim (language="comment", text=
+        " Controller unique name")
+      string name;
+
+      @verbatim (language="comment", text=
+        " If the controller has a manual mode")
+      boolean has_manual;
+
+      @verbatim (language="comment", text=
+        " Used tau")
+      int8__6 used_tau;
+
+      @verbatim (language="comment", text=
+        " Used other controllers by name")
+      sequence<string> used_other;
+
+      @verbatim (language="comment", text=
+        " Used resources and required controllers")
+      sequence<string> used_resources;
+    };
+    module RegisterControllerV3_Response_Constants {
+      const uint8 SUCCESS = 0;
+      const uint8 MISSING_DEPENDENCY = 1;
+      const uint8 ALREADY_REGISTERED = 2;
+    };
+    struct RegisterControllerV3_Response {
+      uint8 reply;
+    };
+  };
+};

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/LawnmoverService.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module labust_msgs {
+  module srv {
+    struct LawnmoverService_Request {
+      float width;
+
+      float length;
+
+      geometry_msgs::msg::Point start_position;
+
+      float speed;
+
+      float victory_radius;
+
+      float horizontal_step;
+
+      float bearing;
+    };
+    struct LawnmoverService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

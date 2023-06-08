@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/ManualConfigure.srv
+// generated code does not contain a copyright notice
+
+#include "labust_msgs/msg/ManualConfiguration.idl"
+
+module labust_msgs {
+  module srv {
+    module ManualConfigure_Request_Constants {
+      const int32 DISABLED = -1;
+      const int32 X = 0;
+      const int32 Y = 1;
+      const int32 Z = 2;
+      const int32 K = 3;
+      const int32 M = 4;
+      const int32 N = 5;
+    };
+    @verbatim (language="comment", text=
+      "# DOF accessor")
+    struct ManualConfigure_Request {
+      @verbatim (language="comment", text=
+        "# Main configuration")
+      labust_msgs::msg::ManualConfiguration configuration;
+    };
+    struct ManualConfigure_Response {
+      labust_msgs::msg::ManualConfiguration current_configuration;
+    };
+  };
+};

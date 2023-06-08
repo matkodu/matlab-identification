@@ -1,0 +1,25 @@
+{
+  "package_name": "geographic_msgs",
+  "non_idl_tuples": [
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/BoundingBox.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeoPath.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeoPoint.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeoPointStamped.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeoPose.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeoPoseStamped.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeoPoseWithCovariance.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeoPoseWithCovarianceStamped.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeographicMap.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/GeographicMapChanges.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/KeyValue.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/MapFeature.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/RouteNetwork.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/RoutePath.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/RouteSegment.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:msg/WayPoint.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:srv/GetGeoPath.srv",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:srv/GetGeographicMap.srv",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:srv/GetRoutePlan.srv",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/geographic_msgs:srv/UpdateGeographicMap.srv"
+  ]
+}

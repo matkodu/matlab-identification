@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auv_msgs/msg/NEDArray.msg
+// generated code does not contain a copyright notice
+
+#include "auv_msgs/msg/NED.idl"
+
+module auv_msgs {
+  module msg {
+    struct NEDArray {
+      sequence<auv_msgs::msg::NED> neds;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auv_msgs/msg/BodyVelocityRequest.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module auv_msgs {
+  module msg {
+    typedef boolean boolean__6[6];
+    @verbatim (language="comment", text=
+      " Body frame vehicle velocity request." "\n"
+      " Coordinate units are metres/sec and radians/sec." "\n"
+      " NB: Coordinate frame used is ROS standard [forward, left, up]," "\n"
+      " to simplify integration with arm control systems.")
+    struct BodyVelocityRequest {
+      @verbatim (language="comment", text=
+        " header.frame_id should be set to the base_link frame of the vehicle.")
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Twist twist;
+
+      @verbatim (language="comment", text=
+        " Axes of control to disable, in body frame." "\n"
+        " x y z r p y")
+      boolean__6 disable_axis;
+    };
+  };
+};

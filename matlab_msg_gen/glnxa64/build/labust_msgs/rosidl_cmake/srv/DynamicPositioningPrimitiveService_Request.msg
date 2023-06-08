@@ -1,0 +1,21 @@
+# Parameters
+# Position
+float64 north
+float64 east
+float64 depth
+# Orientation
+float64 heading
+
+# Flags
+bool north_enable
+bool east_enable
+bool depth_enable
+bool heading_enable
+bool altitude_enable
+bool target_topic_enable
+bool track_heading_enable
+bool point_to_target
+
+# Topics
+string target_topic
+string heading_topic

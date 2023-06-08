@@ -1,0 +1,13 @@
+{
+  "package_name": "auv_msgs",
+  "non_idl_tuples": [
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/BodyForceRequest.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/BodyVelocityRequest.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/NED.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/NEDArray.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/NavigationStatus.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/VehiclePose.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/VehiclePoseArray.msg",
+    "/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs:msg/WorldWaypointRequest.msg"
+  ]
+}

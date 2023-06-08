@@ -1,0 +1,4 @@
+geographic_msgs/GeoPoint point
+float64 speed
+---
+bool status # Status of activation

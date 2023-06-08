@@ -1,0 +1,20 @@
+int32 X=1
+int32 Y=2
+int32 Z=4
+int32 K=8
+int32 M=16
+int32 N=32
+
+int32 MODEL_TF=0
+
+#The identification GOAL
+int32 dof # Desired DOFs to identify
+---
+#The identification result
+labust_msgs/IdentModel[] ident_models
+---
+#The feedback result
+int32 dof # current DOFs
+float32 progress
+float32 error
+string additional_data # Average certainty error

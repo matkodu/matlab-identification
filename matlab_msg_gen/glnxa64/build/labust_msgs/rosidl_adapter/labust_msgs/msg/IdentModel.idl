@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/IdentModel.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    module IdentModel_Constants {
+      const int32 X = 1;
+      const int32 Y = 2;
+      const int32 Z = 4;
+      const int32 K = 8;
+      const int32 M = 16;
+      const int32 N = 32;
+      const int32 MODEL_TF = 0;
+      const int32 MODEL_SS = 1;
+    };
+    struct IdentModel {
+      int32 model_type;
+
+      @verbatim (language="comment", text=
+        " Desired DOFs to identify")
+      int32 dof;
+
+      sequence<float> tf_num;
+
+      sequence<float> tf_den;
+
+      @verbatim (language="comment", text=
+        " state space dimension")
+      int32 ss_dim_n;
+
+      @verbatim (language="comment", text=
+        " observation space dimension")
+      int32 ss_dim_m;
+
+      sequence<float> ss_mat_a;
+
+      sequence<float> ss_mat_b;
+
+      sequence<float> ss_mat_c;
+
+      sequence<float> ss_mat_d;
+    };
+  };
+};

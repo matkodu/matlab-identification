@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/NuReference.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module labust_msgs {
+  module msg {
+    struct NuReference {
+      std_msgs::msg::Header header;
+
+      string identity_token;
+
+      geometry_msgs::msg::Twist reference;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+function [data, info] = tauReference
+%TauReference gives an empty data for labust_msgs/TauReference
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'labust_msgs/TauReference';
+[data.header, info.header] = ros.internal.ros2.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.identity_token, info.identity_token] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.reference, info.reference] = ros.internal.ros2.messages.geometry_msgs.wrench;
+info.reference.MLdataType = 'struct';
+info.MessageType = 'labust_msgs/TauReference';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,15);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.stamp';
+info.MatPath{3} = 'header.stamp.sec';
+info.MatPath{4} = 'header.stamp.nanosec';
+info.MatPath{5} = 'header.frame_id';
+info.MatPath{6} = 'identity_token';
+info.MatPath{7} = 'reference';
+info.MatPath{8} = 'reference.force';
+info.MatPath{9} = 'reference.force.x';
+info.MatPath{10} = 'reference.force.y';
+info.MatPath{11} = 'reference.force.z';
+info.MatPath{12} = 'reference.torque';
+info.MatPath{13} = 'reference.torque.x';
+info.MatPath{14} = 'reference.torque.y';
+info.MatPath{15} = 'reference.torque.z';

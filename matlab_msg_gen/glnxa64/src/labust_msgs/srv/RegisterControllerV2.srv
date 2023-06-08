@@ -1,0 +1,23 @@
+uint8 SURGE=0
+uint8 SWAY=1
+uint8 HEAVE=2
+uint8 ROLL=3
+uint8 PITCH=4
+uint8 YAW=5
+
+uint8 X=0
+uint8 Y=1
+uint8 Z=2
+uint8 K=3
+uint8 M=4
+uint8 N=5
+
+#Controller unique name
+string name
+#The service name for enabling the controller
+string srv_name
+#Used tau
+int8[6] used_tau
+#Used velocity
+int8[6] used_nu
+---

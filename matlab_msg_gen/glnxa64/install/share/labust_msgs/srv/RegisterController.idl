@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/RegisterController.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    typedef int32 int32__6[6];
+    typedef int32 int32__12[12];
+    module RegisterController_Request_Constants {
+      const int32 SURGE = 0;
+      const int32 SWAY = 1;
+      const int32 HEAVE = 2;
+      const int32 ROLL = 3;
+      const int32 PITCH = 4;
+      const int32 YAW = 5;
+    };
+    struct RegisterController_Request {
+      @verbatim (language="comment", text=
+        "Controller unique name")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The service name for enabling the controller")
+      string srv_name;
+
+      @verbatim (language="comment", text=
+        "Used primary forces and torques" "\n"
+        " 0 - not used / don't care" "\n"
+        " 1 - used")
+      int32__6 used_dofs;
+
+      @verbatim (language="comment", text=
+        "Used controllers")
+      sequence<string> used_cnt;
+
+      @verbatim (language="comment", text=
+        "These are for future use to allow" "\n"
+        "fine control over active sensor" "\n"
+        "Used speed and position estimates" "\n"
+        " 0 - not used / don't care" "\n"
+        " 1 - used")
+      int32__12 used_meas;
+
+      @verbatim (language="comment", text=
+        "Used derived estimates")
+      sequence<string> used_derived;
+    };
+    struct RegisterController_Response {
+      boolean accepted;
+
+      @verbatim (language="comment", text=
+        "Unmet controller dependencies")
+      sequence<string> unmet_cnt;
+    };
+  };
+};

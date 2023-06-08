@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/SendPrimitive.msg
+// generated code does not contain a copyright notice
+
+#include "labust_msgs/msg/EventData.idl"
+#include "std_msgs/msg/String.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Sending primitive data to mission_execution")
+    struct SendPrimitive {
+      @verbatim (language="comment", text=
+        " primitive identification")
+      int32 primitive_id;
+
+      @verbatim (language="comment", text=
+        " primitive data (possible use in case of serialization)")
+      sequence<uint8> primitive_data;
+
+      @verbatim (language="comment", text=
+        " events data")
+      labust_msgs::msg::EventData event;
+
+      std_msgs::msg::String primitive_string;
+    };
+  };
+};

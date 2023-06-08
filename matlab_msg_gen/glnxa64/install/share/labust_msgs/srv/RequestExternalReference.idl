@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/RequestExternalReference.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    typedef int32 int32__6[6];
+    module RequestExternalReference_Request_Constants {
+      const int32 IGNORE = 0;
+      const int32 TAU_REF = 1;
+      const int32 NU_REF = 2;
+      const int32 ETA_REF = 3;
+    };
+    @verbatim (language="comment", text=
+      "Operation modes")
+    struct RequestExternalReference_Request {
+      int32__6 control_modes;
+
+      @verbatim (language="comment", text=
+        " for introspection only")
+      string identity;
+    };
+    struct RequestExternalReference_Response {
+      boolean success;
+
+      string identity_token;
+
+      string message;
+    };
+  };
+};

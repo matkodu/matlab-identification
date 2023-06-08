@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/RosbagControl.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    struct RosbagControl_Request {
+      @verbatim (language="comment", text=
+        " Rosbag action: start, stop, todo: split")
+      string action;
+
+      @verbatim (language="comment", text=
+        " Rosbag name")
+      string bag_name;
+    };
+    struct RosbagControl_Response {
+      @verbatim (language="comment", text=
+        " Recording status")
+      boolean result;
+    };
+  };
+};

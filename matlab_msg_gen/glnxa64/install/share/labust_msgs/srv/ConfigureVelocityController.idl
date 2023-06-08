@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/ConfigureVelocityController.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    typedef int32 int32__6[6];
+    module ConfigureVelocityController_Request_Constants {
+      const int32 DISABLEAXIS = 0;
+      const int32 MANUALAXIS = 1;
+      const int32 CONTROLAXIS = 2;
+      const int32 IDENTAXIS = 3;
+      const int32 DIRECTAXIS = 4;
+      const int32 U = 0;
+      const int32 V = 1;
+      const int32 W = 2;
+      const int32 P = 3;
+      const int32 Q = 4;
+      const int32 R = 5;
+    };
+    @verbatim (language="comment", text=
+      "Operation modes")
+    struct ConfigureVelocityController_Request {
+      string identity_token;
+
+      int32__6 desired_mode;
+    };
+    struct ConfigureVelocityController_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

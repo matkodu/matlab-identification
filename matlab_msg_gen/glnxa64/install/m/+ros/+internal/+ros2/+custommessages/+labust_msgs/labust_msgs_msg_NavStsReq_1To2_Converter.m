@@ -1,0 +1,44 @@
+function ros2msg = labust_msgs_msg_NavStsReq_1To2_Converter(message,ros2msg)
+%labust_msgs_msg_NavStsReq_1To2_Converter passes data of ROS message to ROS 2 message.
+% Copyright 2019 The MathWorks, Inc.
+ros2msg.header.stamp.sec = message.Header.Stamp.Sec;
+ros2msg.header.stamp.nanosec = message.Header.Stamp.Nsec;
+ros2msg.header.frame_id = message.Header.FrameId;
+ros2msg.global_position.latitude = message.GlobalPosition.Latitude;
+ros2msg.global_position.longitude = message.GlobalPosition.Longitude;
+ros2msg.global_position.altitude = message.GlobalPosition.Altitude;
+ros2msg.origin.latitude = message.Origin.Latitude;
+ros2msg.origin.longitude = message.Origin.Longitude;
+ros2msg.origin.altitude = message.Origin.Altitude;
+ros2msg.goal.requester = message.Goal.Requester;
+ros2msg.goal.id = message.Goal.Id;
+ros2msg.goal.priority = message.Goal.Priority;
+ros2msg.position.north = message.Position.North;
+ros2msg.position.east = message.Position.East;
+ros2msg.position.depth = message.Position.Depth;
+ros2msg.altitude = message.Altitude;
+ros2msg.body_velocity.x = message.BodyVelocity.X;
+ros2msg.body_velocity.y = message.BodyVelocity.Y;
+ros2msg.body_velocity.z = message.BodyVelocity.Z;
+ros2msg.gbody_velocity.x = message.GbodyVelocity.X;
+ros2msg.gbody_velocity.y = message.GbodyVelocity.Y;
+ros2msg.gbody_velocity.z = message.GbodyVelocity.Z;
+ros2msg.orientation.roll = message.Orientation.Roll;
+ros2msg.orientation.pitch = message.Orientation.Pitch;
+ros2msg.orientation.yaw = message.Orientation.Yaw;
+ros2msg.orientation_rate.roll = message.OrientationRate.Roll;
+ros2msg.orientation_rate.pitch = message.OrientationRate.Pitch;
+ros2msg.orientation_rate.yaw = message.OrientationRate.Yaw;
+ros2msg.position_tolerance.x = message.PositionTolerance.X;
+ros2msg.position_tolerance.y = message.PositionTolerance.Y;
+ros2msg.position_tolerance.z = message.PositionTolerance.Z;
+ros2msg.orientation_tolerance.roll = message.OrientationTolerance.Roll;
+ros2msg.orientation_tolerance.pitch = message.OrientationTolerance.Pitch;
+ros2msg.orientation_tolerance.yaw = message.OrientationTolerance.Yaw;
+ros2msg.disable_axis.x = message.DisableAxis.X;
+ros2msg.disable_axis.y = message.DisableAxis.Y;
+ros2msg.disable_axis.z = message.DisableAxis.Z;
+ros2msg.disable_axis.roll = message.DisableAxis.Roll;
+ros2msg.disable_axis.pitch = message.DisableAxis.Pitch;
+ros2msg.disable_axis.yaw = message.DisableAxis.Yaw;
+end

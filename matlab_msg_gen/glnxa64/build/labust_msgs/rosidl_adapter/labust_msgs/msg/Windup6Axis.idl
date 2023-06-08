@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/Windup6Axis.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    struct Windup6Axis {
+      int8 x;
+
+      int8 y;
+
+      int8 z;
+
+      int8 roll;
+
+      int8 pitch;
+
+      int8 yaw;
+    };
+  };
+};

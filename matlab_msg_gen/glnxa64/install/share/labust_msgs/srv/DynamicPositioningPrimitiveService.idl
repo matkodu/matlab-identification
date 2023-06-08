@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/DynamicPositioningPrimitiveService.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Parameters" "\n"
+      " Position")
+    struct DynamicPositioningPrimitiveService_Request {
+      double north;
+
+      double east;
+
+      double depth;
+
+      @verbatim (language="comment", text=
+        " Orientation")
+      double heading;
+
+      @verbatim (language="comment", text=
+        " Flags")
+      boolean north_enable;
+
+      boolean east_enable;
+
+      boolean depth_enable;
+
+      boolean heading_enable;
+
+      boolean altitude_enable;
+
+      boolean target_topic_enable;
+
+      boolean track_heading_enable;
+
+      boolean point_to_target;
+
+      @verbatim (language="comment", text=
+        " Topics")
+      string target_topic;
+
+      string heading_topic;
+    };
+    struct DynamicPositioningPrimitiveService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

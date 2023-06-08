@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/UnRegisterController.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    module UnRegisterController_Request_Constants {
+      const uint8 SINGLE = 0;
+      const uint8 SAME_PARENT = 1;
+      const uint8 ALL = 2;
+    };
+    struct UnRegisterController_Request {
+      @verbatim (language="comment", text=
+        " Type of un-registration" "\n"
+        " 0 - single controller" "\n"
+        " 1 - controller with same parents" "\n"
+        " 2 - all controllers")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        " Parent name - for multi-controller nodes")
+      string parent;
+
+      @verbatim (language="comment", text=
+        " Controller unique name")
+      string name;
+    };
+    module UnRegisterController_Response_Constants {
+      const uint8 SUCCESS = 0;
+    };
+    struct UnRegisterController_Response {
+      uint8 reply;
+    };
+  };
+};

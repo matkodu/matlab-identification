@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/RelativePosition.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Relative position and variance with respect to the vehicle." "\n"
+      " Vehicle is (0,0). X-Y coordinate system (in m) is NED oriented," "\n"
+      " with X-axis pointing to the right and Y-axis forward.")
+    struct RelativePosition {
+      std_msgs::msg::Header header;
+
+      float x;
+
+      float y;
+
+      float x_variance;
+
+      float y_variance;
+
+      float range;
+
+      float bearing;
+
+      float range_variance;
+
+      float bearing_variance;
+
+      float altitude;
+
+      float altitude_variance;
+
+      float heading;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+function [data, info] = wayPoint
+%WayPoint gives an empty data for geographic_msgs/WayPoint
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'geographic_msgs/WayPoint';
+[data.id, info.id] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.id.MLdataType = 'struct';
+[data.position, info.position] = ros.internal.ros2.custommessages.geographic_msgs.geoPoint;
+info.position.MLdataType = 'struct';
+[data.props, info.props] = ros.internal.ros2.custommessages.geographic_msgs.keyValue;
+info.props.MLdataType = 'struct';
+info.props.MaxLen = NaN;
+info.props.MinLen = 0;
+info.MessageType = 'geographic_msgs/WayPoint';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,9);
+info.MatPath{1} = 'id';
+info.MatPath{2} = 'id.uuid';
+info.MatPath{3} = 'position';
+info.MatPath{4} = 'position.latitude';
+info.MatPath{5} = 'position.longitude';
+info.MatPath{6} = 'position.altitude';
+info.MatPath{7} = 'props';
+info.MatPath{8} = 'props.key';
+info.MatPath{9} = 'props.value';

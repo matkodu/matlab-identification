@@ -1,0 +1,34 @@
+function [data, info] = dataEventsContainer
+%DataEventsContainer gives an empty data for labust_msgs/DataEventsContainer
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'labust_msgs/DataEventsContainer';
+[data.state_var, info.state_var] = ros.internal.ros2.messages.std_msgs.float64MultiArray;
+info.state_var.MLdataType = 'struct';
+[data.mission_var, info.mission_var] = ros.internal.ros2.messages.std_msgs.float64MultiArray;
+info.mission_var.MLdataType = 'struct';
+[data.events_var, info.events_var] = ros.internal.ros2.messages.ros2.default_type('uint8',NaN,0);
+info.MessageType = 'labust_msgs/DataEventsContainer';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,17);
+info.MatPath{1} = 'state_var';
+info.MatPath{2} = 'state_var.layout';
+info.MatPath{3} = 'state_var.layout.dim';
+info.MatPath{4} = 'state_var.layout.dim.label';
+info.MatPath{5} = 'state_var.layout.dim.size';
+info.MatPath{6} = 'state_var.layout.dim.stride';
+info.MatPath{7} = 'state_var.layout.data_offset';
+info.MatPath{8} = 'state_var.data';
+info.MatPath{9} = 'mission_var';
+info.MatPath{10} = 'mission_var.layout';
+info.MatPath{11} = 'mission_var.layout.dim';
+info.MatPath{12} = 'mission_var.layout.dim.label';
+info.MatPath{13} = 'mission_var.layout.dim.size';
+info.MatPath{14} = 'mission_var.layout.dim.stride';
+info.MatPath{15} = 'mission_var.layout.data_offset';
+info.MatPath{16} = 'mission_var.data';
+info.MatPath{17} = 'events_var';

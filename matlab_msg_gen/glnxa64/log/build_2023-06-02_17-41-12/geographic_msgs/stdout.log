@@ -1,0 +1,714 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/mbat/.matlab/R2023a/ros2/glnxa64/venv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/mbat/.matlab/R2023a/ros2/glnxa64/venv/bin/python3
+-- Found ament_cmake_ros: 0.9.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+-- Found rosidl_typesupport_c: 1.0.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+-- Found FastRTPS: /usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/include  
+-- Found rosidl_typesupport_cpp: 1.0.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.0.1 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+-- Found class_loader: 2.0.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+-- Found geometry_msgs: 2.0.4 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/geometry_msgs/cmake)
+-- Found rclcpp: 2.3.1 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found unique_identifier_msgs: 2.1.3 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/unique_identifier_msgs/cmake)
+-- Found PythonInterp: /home/mbat/.matlab/R2023a/ros2/glnxa64/venv/bin/python3 (found version "3.8.10") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/geographic_msgs
+[1/176] Generating C++ code for ROS interfaces
+[2/176] Generating C code for ROS interfaces
+[3/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/bounding_box__functions.c.o
+[4/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geo_pose_stamped__functions.c.o
+[5/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geo_pose_with_covariance__functions.c.o
+[6/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geo_point__functions.c.o
+[7/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__functions.c.o
+[8/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geo_path__functions.c.o
+[9/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geo_point_stamped__functions.c.o
+[10/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geo_pose__functions.c.o
+[11/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geographic_map__functions.c.o
+[12/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/key_value__functions.c.o
+[13/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/geographic_map_changes__functions.c.o
+[14/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/map_feature__functions.c.o
+[15/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/route_network__functions.c.o
+[16/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/route_path__functions.c.o
+[17/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/route_segment__functions.c.o
+[18/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/msg/detail/way_point__functions.c.o
+[19/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/srv/detail/get_geo_path__functions.c.o
+[20/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/srv/detail/get_geographic_map__functions.c.o
+[21/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/srv/detail/get_route_plan__functions.c.o
+[22/176] Building C object CMakeFiles/geographic_msgs__rosidl_generator_c.dir/rosidl_generator_c/geographic_msgs/srv/detail/update_geographic_map__functions.c.o
+[23/176] Linking C shared library libgeographic_msgs__rosidl_generator_c.so
+[24/176] Generating C++ type support dispatch for ROS interfaces
+[25/176] Generating C++ introspection for ROS interfaces
+[26/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/bounding_box__type_support.cpp.o
+[27/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geo_path__type_support.cpp.o
+[28/176] Generating C++ type support for eProsima Fast-RTPS
+[29/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geo_path__type_support.cpp.o
+[30/176] Generating C type support dispatch for ROS interfaces
+[31/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/bounding_box__type_support.cpp.o
+[32/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/srv/get_route_plan__type_support.cpp.o
+[33/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o
+[34/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geographic_map__type_support.cpp.o
+[35/176] Generating C introspection for ROS interfaces
+[36/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geo_point__type_support.cpp.o
+[37/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geo_point_stamped__type_support.cpp.o
+[38/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geo_path__type_support.cpp.o
+[39/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geo_pose__type_support.cpp.o
+[40/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geo_pose_stamped__type_support.cpp.o
+[41/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geo_pose_with_covariance__type_support.cpp.o
+[42/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geo_pose_with_covariance_stamped__type_support.cpp.o
+[43/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geographic_map_changes__type_support.cpp.o
+[44/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/geographic_map__type_support.cpp.o
+[45/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o
+[46/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/map_feature__type_support.cpp.o
+[47/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/route_network__type_support.cpp.o
+[48/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/route_path__type_support.cpp.o
+[49/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/way_point__type_support.cpp.o
+[50/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/srv/detail/dds_fastrtps/get_geo_path__type_support.cpp.o
+[51/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/msg/detail/dds_fastrtps/route_segment__type_support.cpp.o
+[52/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/srv/detail/dds_fastrtps/get_geographic_map__type_support.cpp.o
+[53/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/srv/detail/dds_fastrtps/get_route_plan__type_support.cpp.o
+[54/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geo_point__type_support.cpp.o
+[55/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geo_point_stamped__type_support.cpp.o
+[56/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geographic_msgs/srv/detail/dds_fastrtps/update_geographic_map__type_support.cpp.o
+[57/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geo_pose__type_support.cpp.o
+[58/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geo_pose_stamped__type_support.cpp.o
+[59/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support.cpp.o
+[60/176] Linking CXX shared library libgeographic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[61/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support.cpp.o
+[62/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/key_value__type_support.cpp.o
+[63/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/geographic_map_changes__type_support.cpp.o
+[64/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/map_feature__type_support.cpp.o
+[65/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/route_segment__type_support.cpp.o
+[66/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/route_path__type_support.cpp.o
+[67/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/route_network__type_support.cpp.o
+[68/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/bounding_box__type_support.c.o
+[69/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/srv/detail/get_geo_path__type_support.cpp.o
+[70/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/msg/detail/way_point__type_support.cpp.o
+[71/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geo_path__type_support.c.o
+[72/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geo_point__type_support.c.o
+[73/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geo_point_stamped__type_support.c.o
+[74/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geo_pose__type_support.c.o
+[75/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geo_pose_stamped__type_support.c.o
+[76/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support.c.o
+[77/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support.c.o
+[78/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/srv/detail/get_geographic_map__type_support.cpp.o
+[79/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/key_value__type_support.c.o
+[80/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geographic_map__type_support.c.o
+[81/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/geographic_map_changes__type_support.c.o
+[82/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/map_feature__type_support.c.o
+[83/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/route_path__type_support.c.o
+[84/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/route_network__type_support.c.o
+[85/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/route_segment__type_support.c.o
+[86/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/msg/detail/way_point__type_support.c.o
+[87/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/srv/detail/get_geographic_map__type_support.c.o
+[88/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/srv/detail/get_geo_path__type_support.c.o
+[89/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/srv/detail/get_route_plan__type_support.c.o
+[90/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/srv/detail/get_route_plan__type_support.cpp.o
+[91/176] Building C object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geographic_msgs/srv/detail/update_geographic_map__type_support.c.o
+[92/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/bounding_box__type_support.cpp.o
+[93/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geo_path__type_support.cpp.o
+[94/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geo_point__type_support.cpp.o
+[95/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geo_point_stamped__type_support.cpp.o
+[96/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geo_pose_stamped__type_support.cpp.o
+[97/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geo_pose_with_covariance__type_support.cpp.o
+[98/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geographic_msgs/srv/detail/update_geographic_map__type_support.cpp.o
+[99/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geo_pose__type_support.cpp.o
+[100/176] Linking C shared library libgeographic_msgs__rosidl_typesupport_introspection_c.so
+[101/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geo_pose_with_covariance_stamped__type_support.cpp.o
+[102/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geographic_map_changes__type_support.cpp.o
+[103/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/key_value__type_support.cpp.o
+[104/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/geographic_map__type_support.cpp.o
+[105/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/map_feature__type_support.cpp.o
+[106/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/route_network__type_support.cpp.o
+[107/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/route_segment__type_support.cpp.o
+[108/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/route_path__type_support.cpp.o
+[109/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/msg/way_point__type_support.cpp.o
+[110/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/srv/get_geo_path__type_support.cpp.o
+[111/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/srv/get_geographic_map__type_support.cpp.o
+[112/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geographic_msgs/srv/update_geographic_map__type_support.cpp.o
+[113/176] Linking CXX shared library libgeographic_msgs__rosidl_typesupport_introspection_cpp.so
+[114/176] Linking CXX shared library libgeographic_msgs__rosidl_typesupport_c.so
+[115/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geo_point__type_support.cpp.o
+[116/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geo_pose__type_support.cpp.o
+[117/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geo_pose_stamped__type_support.cpp.o
+[118/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geo_point_stamped__type_support.cpp.o
+[119/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geo_pose_with_covariance__type_support.cpp.o
+[120/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geo_pose_with_covariance_stamped__type_support.cpp.o
+[121/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geographic_map__type_support.cpp.o
+[122/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/geographic_map_changes__type_support.cpp.o
+[123/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/key_value__type_support.cpp.o
+[124/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/map_feature__type_support.cpp.o
+[125/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/route_network__type_support.cpp.o
+[126/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/route_path__type_support.cpp.o
+[127/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/route_segment__type_support.cpp.o
+[128/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/msg/way_point__type_support.cpp.o
+[129/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/srv/get_geo_path__type_support.cpp.o
+[130/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/srv/get_geographic_map__type_support.cpp.o
+[131/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/srv/get_route_plan__type_support.cpp.o
+[132/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geographic_msgs/srv/update_geographic_map__type_support.cpp.o
+[133/176] Linking CXX shared library libgeographic_msgs__rosidl_typesupport_cpp.so
+[134/176] Generating C type support for eProsima Fast-RTPS
+[135/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geo_pose__type_support_c.cpp.o
+[136/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geo_pose_stamped__type_support_c.cpp.o
+[137/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geo_point_stamped__type_support_c.cpp.o
+[138/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geo_point__type_support_c.cpp.o
+[139/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geo_path__type_support_c.cpp.o
+[140/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/bounding_box__type_support_c.cpp.o
+[141/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support_c.cpp.o
+[142/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support_c.cpp.o
+[143/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/key_value__type_support_c.cpp.o
+[144/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geographic_map_changes__type_support_c.cpp.o
+[145/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/geographic_map__type_support_c.cpp.o
+[146/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/map_feature__type_support_c.cpp.o
+[147/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/route_path__type_support_c.cpp.o
+[148/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/route_segment__type_support_c.cpp.o
+[149/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/route_network__type_support_c.cpp.o
+[150/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/msg/detail/way_point__type_support_c.cpp.o
+[151/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/srv/detail/get_geo_path__type_support_c.cpp.o
+[152/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/srv/detail/get_geographic_map__type_support_c.cpp.o
+[153/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/srv/detail/get_route_plan__type_support_c.cpp.o
+[154/176] Building CXX object CMakeFiles/geographic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geographic_msgs/srv/detail/update_geographic_map__type_support_c.cpp.o
+[155/176] Linking CXX shared library libgeographic_msgs__rosidl_typesupport_fastrtps_c.so
+[156/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_BoundingBox_message.cpp.o
+[157/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeoPointStamped_message.cpp.o
+[158/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeoPoint_message.cpp.o
+[159/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeoPose_message.cpp.o
+[160/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeoPath_message.cpp.o
+[161/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeoPoseStamped_message.cpp.o
+[162/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_KeyValue_message.cpp.o
+[163/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeoPoseWithCovarianceStamped_message.cpp.o
+[164/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeoPoseWithCovariance_message.cpp.o
+[165/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeographicMapChanges_message.cpp.o
+[166/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GeographicMap_message.cpp.o
+[167/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_MapFeature_message.cpp.o
+[168/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_RouteNetwork_message.cpp.o
+[169/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_RoutePath_message.cpp.o
+[170/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_RouteSegment_message.cpp.o
+[171/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_WayPoint_message.cpp.o
+[172/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GetGeoPath_service.cpp.o
+[173/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GetGeographicMap_service.cpp.o
+[174/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_UpdateGeographicMap_service.cpp.o
+[175/176] Building CXX object CMakeFiles/geographic_msgs_matlab.dir/src/geographic_msgs_GetRoutePlan_service.cpp.o
+[176/176] Linking CXX shared library libgeographic_msgs_matlab.so
+-- Install configuration: "Release"
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/geographic_msgs
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/route_segment.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/map_feature.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/route_path.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/way_point.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geographic_map.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/bounding_box.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geographic_map_changes.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_point_stamped.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_point.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/route_network.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/key_value.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_path.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose_with_covariance_stamped.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose_with_covariance.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose_stamped.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/update_geographic_map.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__functions.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__functions.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__type_support.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__struct.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/get_geo_path.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/get_geographic_map.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/get_route_plan.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/environment/library_path.sh
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/environment/library_path.dsv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs__rosidl_generator_c.so
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/dds_fastrtps
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/dds_fastrtps
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__type_support.c
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_introspection_c.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs__rosidl_typesupport_introspection_c.so
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/bounding_box.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/way_point.hpp
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geographic_map.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose_with_covariance_stamped.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose_stamped.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_point.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/key_value.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/route_network.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_point_stamped.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose_with_covariance.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geographic_map_changes.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/route_path.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_pose.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/map_feature.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/geo_path.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/route_segment.hpp
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/get_geo_path.hpp
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__traits.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__struct.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__builder.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/get_route_plan.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/update_geographic_map.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/get_geographic_map.hpp
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_stamped__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map_changes__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_network__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point_stamped__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_point__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/route_path__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/map_feature__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/bounding_box__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/msg/detail/way_point__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/update_geographic_map__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_route_plan__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__type_support.cpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs__rosidl_typesupport_introspection_cpp.so
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs__rosidl_typesupport_cpp.so
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/BoundingBox.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPath.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoint.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPointStamped.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPose.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoseStamped.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoseWithCovariance.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoseWithCovarianceStamped.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeographicMap.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeographicMapChanges.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/KeyValue.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/MapFeature.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/RouteNetwork.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/RoutePath.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/RouteSegment.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/WayPoint.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeoPath.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeographicMap.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetRoutePlan.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/UpdateGeographicMap.idl
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/BoundingBox.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPath.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoint.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPointStamped.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPose.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoseStamped.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoseWithCovariance.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeoPoseWithCovarianceStamped.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeographicMap.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/GeographicMapChanges.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/KeyValue.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/MapFeature.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/RouteNetwork.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/RoutePath.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/RouteSegment.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/msg/WayPoint.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeoPath.srv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeoPath_Request.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeoPath_Response.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeographicMap.srv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeographicMap_Request.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetGeographicMap_Response.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetRoutePlan.srv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetRoutePlan_Request.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/GetRoutePlan_Response.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/UpdateGeographicMap.srv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/UpdateGeographicMap_Request.msg
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/srv/UpdateGeographicMap_Response.msg
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include
+-- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/geographic_msgs/visibility_control.h
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libgeographic_msgs_matlab.so
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m/
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geoPath.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/getRoutePlanRequest.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/routeSegment.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geoPoseStamped.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geoPointStamped.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/updateGeographicMapRequest.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/boundingBox.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/routePath.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeographicMap_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/keyValue.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeographicMapChanges_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_MapFeature_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/getGeographicMapRequest.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/getGeoPathResponse.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_RouteNetwork_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/wayPoint.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPath_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_RouteNetwork_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoseWithCovarianceStamped_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoint_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geoPoseWithCovarianceStamped.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoseWithCovarianceStamped_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_RoutePath_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/updateGeographicMapResponse.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geoPoseWithCovariance.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographicMap.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_KeyValue_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_MapFeature_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeographicMap_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoseWithCovariance_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/getGeographicMapResponse.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoseStamped_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/mapFeature.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_WayPoint_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoint_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPose_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/getRoutePlanResponse.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/getGeoPathRequest.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPointStamped_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_RouteSegment_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoseWithCovariance_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographicMapChanges.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_KeyValue_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeographicMapChanges_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPath_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPose_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geoPoint.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_RoutePath_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geoPose.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_BoundingBox_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPointStamped_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_WayPoint_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_BoundingBox_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_GeoPoseStamped_1To2_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/geographic_msgs_msg_RouteSegment_2To1_Converter.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+geographic_msgs/routeNetwork.m
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/geographic_msgs
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/geographic_msgs
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/environment/ament_prefix_path.sh
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/environment/ament_prefix_path.dsv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/environment/path.sh
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/environment/path.dsv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/local_setup.bash
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/local_setup.sh
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/local_setup.zsh
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/local_setup.dsv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/package.dsv
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/geographic_msgs
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_generator_cExport.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_generator_cExport-release.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cExport-release.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgsConfig.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake/geographic_msgsConfig-version.cmake
+-- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/package.xml

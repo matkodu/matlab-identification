@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from labust_msgs/action/DynamicPositioning.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PointStamped.idl"
+
+module labust_msgs {
+  module action {
+    typedef boolean boolean__6[6];
+    @verbatim (language="comment", text=
+      "The GOAL")
+    struct DynamicPositioning_Goal {
+      @verbatim (language="comment", text=
+        " Desired station point")
+      geometry_msgs::msg::PointStamped t1;
+
+      @verbatim (language="comment", text=
+        " The desired yaw for overactuated vehicles")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        " The operation radius for underactuated vehicles")
+      float radius;
+
+      boolean__6 axis_enable;
+
+      boolean altitude;
+
+      boolean track_heading_enable;
+
+      boolean target_topic_enable;
+
+      string target_topic;
+
+      string heading_topic;
+    };
+    struct DynamicPositioning_Result {
+      @verbatim (language="comment", text=
+        "The result" "\n"
+        " Finish point")
+      geometry_msgs::msg::PointStamped position;
+    };
+    struct DynamicPositioning_Feedback {
+      @verbatim (language="comment", text=
+        "The feedback" "\n"
+        " The current station keeping error")
+      geometry_msgs::msg::PointStamped error;
+
+      float distance;
+
+      float bearing;
+    };
+  };
+};

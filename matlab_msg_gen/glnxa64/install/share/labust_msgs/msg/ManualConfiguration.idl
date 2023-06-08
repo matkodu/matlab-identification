@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/ManualConfiguration.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    module ManualConfiguration_Constants {
+      const int32 DISABLED = -1;
+      const int32 X = 0;
+      const int32 Y = 1;
+      const int32 Z = 2;
+      const int32 K = 3;
+      const int32 M = 4;
+      const int32 N = 5;
+    };
+    @verbatim (language="comment", text=
+      "# DOF accessor")
+    struct ManualConfiguration {
+      @verbatim (language="comment", text=
+        "# Joystick remap options" "\n"
+        " Which axes to use for DOF. Use -1 to disable DOF")
+      sequence<int32> axes_map;
+
+      @verbatim (language="comment", text=
+        " What scalling to apply in order to get the joystick values in [-1,1]")
+      sequence<float> scale_map;
+
+      @verbatim (language="comment", text=
+        " Use integration with time constant, e.g. for hat(pov) axes." "\n"
+        " For zero or negative the integration is ignored.")
+      sequence<float> integrated;
+
+      @verbatim (language="comment", text=
+        "# Effort generator options")
+      sequence<float> maximum_effort;
+
+      @verbatim (language="comment", text=
+        "# Speed generator options")
+      sequence<float> maximum_nu;
+
+      @verbatim (language="comment", text=
+        "# Position generator options")
+      sequence<float> maximum_speed;
+
+      @verbatim (language="comment", text=
+        " Sampling time for state integration (if zero, defaults to 0.1)")
+      double sampling_time;
+
+      @verbatim (language="comment", text=
+        " Feed-forward option. If true will also set the body_velocities for feed-forward.")
+      boolean use_ff;
+
+      @verbatim (language="comment", text=
+        "# The joystick topic that should be used")
+      string topic;
+    };
+  };
+};

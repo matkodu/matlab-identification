@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from labust_msgs/action/Docking.action
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "## docking action ###")
+    struct Docking_Goal {
+      @verbatim (language="comment", text=
+        "## The goal" "\n"
+        " Dock or undock")
+      boolean docking_action;
+
+      @verbatim (language="comment", text=
+        " 0 - 3")
+      uint8 docking_slot;
+
+      float search_yaw_rate;
+
+      float max_yaw_rate;
+
+      float max_surge_speed;
+
+      float surge_stdev;
+    };
+    struct Docking_Result {
+      @verbatim (language="comment", text=
+        "## The result")
+      boolean success;
+    };
+    struct Docking_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

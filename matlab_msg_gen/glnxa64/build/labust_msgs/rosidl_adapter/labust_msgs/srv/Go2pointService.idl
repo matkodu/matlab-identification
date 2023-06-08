@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/Go2pointService.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module labust_msgs {
+  module srv {
+    struct Go2pointService_Request {
+      geometry_msgs::msg::Point point;
+
+      double speed;
+    };
+    struct Go2pointService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

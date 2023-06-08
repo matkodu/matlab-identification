@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/EventData.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Event info")
+    struct EventData {
+      @verbatim (language="comment", text=
+        " Primitive timeout in seconds")
+      float timeout;
+
+      @verbatim (language="comment", text=
+        " Array of primitive ID's to be executed on event")
+      sequence<uint8> on_event_next;
+
+      @verbatim (language="comment", text=
+        " Array of active events that trigger particular onEventNext")
+      sequence<uint8> on_event_next_active;
+    };
+  };
+};

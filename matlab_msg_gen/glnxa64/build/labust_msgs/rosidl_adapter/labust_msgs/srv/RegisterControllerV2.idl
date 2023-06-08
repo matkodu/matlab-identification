@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/RegisterControllerV2.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    typedef int8 int8__6[6];
+    module RegisterControllerV2_Request_Constants {
+      const uint8 SURGE = 0;
+      const uint8 SWAY = 1;
+      const uint8 HEAVE = 2;
+      const uint8 ROLL = 3;
+      const uint8 PITCH = 4;
+      const uint8 YAW = 5;
+      const uint8 X = 0;
+      const uint8 Y = 1;
+      const uint8 Z = 2;
+      const uint8 K = 3;
+      const uint8 M = 4;
+      const uint8 N = 5;
+    };
+    struct RegisterControllerV2_Request {
+      @verbatim (language="comment", text=
+        "Controller unique name")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The service name for enabling the controller")
+      string srv_name;
+
+      @verbatim (language="comment", text=
+        "Used tau")
+      int8__6 used_tau;
+
+      @verbatim (language="comment", text=
+        "Used velocity")
+      int8__6 used_nu;
+    };
+    struct RegisterControllerV2_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,34 @@
+function [data, info] = pointerPrimitiveServiceRequest
+%PointerPrimitiveService gives an empty data for labust_msgs/PointerPrimitiveServiceRequest
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'labust_msgs/PointerPrimitiveServiceRequest';
+[data.radius, info.radius] = ros.internal.ros2.messages.ros2.default_type('single',1,0);
+[data.vertical_offset, info.vertical_offset] = ros.internal.ros2.messages.ros2.default_type('single',1,0);
+[data.guidance_target, info.guidance_target] = ros.internal.ros2.messages.geometry_msgs.point;
+info.guidance_target.MLdataType = 'struct';
+[data.guidance_enable, info.guidance_enable] = ros.internal.ros2.messages.ros2.default_type('logical',1,0);
+[data.wrapping_enable, info.wrapping_enable] = ros.internal.ros2.messages.ros2.default_type('logical',1,0);
+[data.fov_guidance, info.fov_guidance] = ros.internal.ros2.messages.ros2.default_type('logical',1,0);
+[data.streamline_orientation, info.streamline_orientation] = ros.internal.ros2.messages.ros2.default_type('logical',1,0);
+[data.guidance_topic, info.guidance_topic] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.radius_topic, info.radius_topic] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+info.MessageType = 'labust_msgs/PointerPrimitiveServiceRequest';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,12);
+info.MatPath{1} = 'radius';
+info.MatPath{2} = 'vertical_offset';
+info.MatPath{3} = 'guidance_target';
+info.MatPath{4} = 'guidance_target.x';
+info.MatPath{5} = 'guidance_target.y';
+info.MatPath{6} = 'guidance_target.z';
+info.MatPath{7} = 'guidance_enable';
+info.MatPath{8} = 'wrapping_enable';
+info.MatPath{9} = 'fov_guidance';
+info.MatPath{10} = 'streamline_orientation';
+info.MatPath{11} = 'guidance_topic';
+info.MatPath{12} = 'radius_topic';

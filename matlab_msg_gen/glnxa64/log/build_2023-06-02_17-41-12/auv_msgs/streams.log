@@ -1,0 +1,366 @@
+[0.018s] Invoking command in '/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs': AMENT_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib${LD_LIBRARY_PATH} PS1=(venv) /usr/local/MATLAB/R2023a/bin/glnxa64/cmake/bin/cmake /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install
+[0.093s] -- The C compiler identification is GNU 9.4.0
+[0.159s] -- The CXX compiler identification is GNU 9.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 0.9.8 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.359s] -- Found PythonInterp: /home/mbat/.matlab/R2023a/ros2/glnxa64/venv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.359s] -- Using PYTHON_EXECUTABLE: /home/mbat/.matlab/R2023a/ros2/glnxa64/venv/bin/python3
+[0.502s] -- Found ament_cmake_ros: 0.9.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[0.507s] -- Found rosidl_typesupport_c: 1.0.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.513s] -- Found rosidl_adapter: 1.2.1 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[0.559s] -- Found FastRTPS: /usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/include  
+[0.627s] -- Found rosidl_typesupport_cpp: 1.0.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found rosidl_default_generators: 1.0.1 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[0.647s] -- Found class_loader: 2.0.2 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[0.651s] -- Found geographic_msgs: 0.0.0 (/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/geographic_msgs/cmake)
+[0.788s] -- Found rclcpp: 2.3.1 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[0.818s] -- Found rmw_implementation_cmake: 1.0.3 (/usr/local/MATLAB/R2023a/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[0.819s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.820s] -- Looking for pthread.h
+[0.894s] -- Looking for pthread.h - found
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.961s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.961s] -- Looking for pthread_create in pthreads
+[1.015s] -- Looking for pthread_create in pthreads - not found
+[1.016s] -- Looking for pthread_create in pthread
+[1.075s] -- Looking for pthread_create in pthread - found
+[1.077s] -- Found Threads: TRUE  
+[1.177s] -- Found PythonInterp: /home/mbat/.matlab/R2023a/ros2/glnxa64/venv/bin/python3 (found version "3.8.10") 
+[1.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.907s] -- Configuring done
+[1.940s] -- Generating done
+[1.954s] -- Build files have been written to: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs
+[1.966s] Invoked command in '/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs' returned '0': AMENT_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib${LD_LIBRARY_PATH} PS1=(venv) /usr/local/MATLAB/R2023a/bin/glnxa64/cmake/bin/cmake /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/src/auv_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install
+[1.970s] Invoking command in '/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs': AMENT_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib${LD_LIBRARY_PATH} PS1=(venv) /usr/local/MATLAB/R2023a/bin/glnxa64/cmake/bin/cmake --build /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs -- -j6 -l6
+[2.742s] [1/80] Generating C++ code for ROS interfaces
+[2.789s] [2/80] Generating C code for ROS interfaces
+[2.837s] [3/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/ned__functions.c.o
+[2.865s] [4/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/body_velocity_request__functions.c.o
+[2.866s] [5/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/body_force_request__functions.c.o
+[2.893s] [6/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/ned_array__functions.c.o
+[2.924s] [7/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/vehicle_pose__functions.c.o
+[2.931s] [8/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/navigation_status__functions.c.o
+[2.956s] [9/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/vehicle_pose_array__functions.c.o
+[2.985s] [10/80] Building C object CMakeFiles/auv_msgs__rosidl_generator_c.dir/rosidl_generator_c/auv_msgs/msg/detail/world_waypoint_request__functions.c.o
+[3.019s] [11/80] Linking C shared library libauv_msgs__rosidl_generator_c.so
+[3.451s] [12/80] Generating C++ type support dispatch for ROS interfaces
+[3.538s] [13/80] Generating C++ introspection for ROS interfaces
+[3.618s] [14/80] Generating C++ type support for eProsima Fast-RTPS
+[3.759s] [15/80] Generating C type support dispatch for ROS interfaces
+[3.769s] [16/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/body_velocity_request__type_support.cpp.o
+[3.776s] [17/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/body_force_request__type_support.cpp.o
+[3.855s] [18/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/body_force_request__type_support.cpp.o
+[3.886s] [19/80] Generating C introspection for ROS interfaces
+[3.938s] [20/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/body_velocity_request__type_support.cpp.o
+[4.059s] [21/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/ned__type_support.cpp.o
+[4.090s] [22/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/navigation_status__type_support.cpp.o
+[4.096s] [23/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/body_force_request__type_support.c.o
+[4.129s] [24/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/ned_array__type_support.cpp.o
+[4.129s] [25/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/ned__type_support.c.o
+[4.130s] [26/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/body_velocity_request__type_support.c.o
+[4.161s] [27/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/vehicle_pose__type_support.cpp.o
+[4.167s] [28/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/vehicle_pose__type_support.c.o
+[4.169s] [29/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/ned_array__type_support.c.o
+[4.173s] [30/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/navigation_status__type_support.c.o
+[4.202s] [31/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/vehicle_pose_array__type_support.c.o
+[4.208s] [32/80] Building C object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_msgs/msg/detail/world_waypoint_request__type_support.c.o
+[4.248s] [33/80] Linking C shared library libauv_msgs__rosidl_typesupport_introspection_c.so
+[4.267s] [34/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/world_waypoint_request__type_support.cpp.o
+[4.290s] [35/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_msgs/msg/detail/vehicle_pose_array__type_support.cpp.o
+[4.405s] [36/80] Linking CXX shared library libauv_msgs__rosidl_typesupport_introspection_cpp.so
+[4.629s] [37/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/body_force_request__type_support.cpp.o
+[4.636s] [38/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/body_velocity_request__type_support.cpp.o
+[4.657s] [39/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/ned__type_support.cpp.o
+[4.723s] [40/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/navigation_status__type_support.cpp.o
+[4.739s] [41/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/ned_array__type_support.cpp.o
+[4.894s] [42/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/vehicle_pose__type_support.cpp.o
+[4.963s] [43/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/ned__type_support.cpp.o
+[5.023s] [44/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/ned_array__type_support.cpp.o
+[5.044s] [45/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/navigation_status__type_support.cpp.o
+[5.069s] [46/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/body_force_request__type_support.cpp.o
+[5.095s] [47/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/body_velocity_request__type_support.cpp.o
+[5.121s] [48/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/ned__type_support.cpp.o
+[5.121s] [49/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/world_waypoint_request__type_support.cpp.o
+[5.144s] [50/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_msgs/msg/detail/dds_fastrtps/vehicle_pose_array__type_support.cpp.o
+[5.149s] [51/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/navigation_status__type_support.cpp.o
+[5.149s] [52/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/ned_array__type_support.cpp.o
+[5.175s] [53/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/vehicle_pose_array__type_support.cpp.o
+[5.177s] [54/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/vehicle_pose__type_support.cpp.o
+[5.201s] [55/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_msgs/msg/world_waypoint_request__type_support.cpp.o
+[5.237s] [56/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/vehicle_pose__type_support.cpp.o
+[5.273s] [57/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/vehicle_pose_array__type_support.cpp.o
+[5.310s] [58/80] Linking CXX shared library libauv_msgs__rosidl_typesupport_c.so
+[5.319s] [59/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_msgs/msg/world_waypoint_request__type_support.cpp.o
+[5.344s] [60/80] Linking CXX shared library libauv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.401s] [61/80] Linking CXX shared library libauv_msgs__rosidl_typesupport_cpp.so
+[6.049s] [62/80] Generating C type support for eProsima Fast-RTPS
+[6.413s] [63/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/body_force_request__type_support_c.cpp.o
+[6.417s] [64/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/ned__type_support_c.cpp.o
+[6.423s] [65/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/ned_array__type_support_c.cpp.o
+[6.426s] [66/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/world_waypoint_request__type_support_c.cpp.o
+[6.431s] [67/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/navigation_status__type_support_c.cpp.o
+[6.454s] [68/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/body_velocity_request__type_support_c.cpp.o
+[6.735s] [69/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/vehicle_pose__type_support_c.cpp.o
+[6.736s] [70/80] Building CXX object CMakeFiles/auv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_msgs/msg/detail/vehicle_pose_array__type_support_c.cpp.o
+[6.896s] [71/80] Linking CXX shared library libauv_msgs__rosidl_typesupport_fastrtps_c.so
+[14.687s] [72/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_NED_message.cpp.o
+[15.108s] [73/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_VehiclePose_message.cpp.o
+[15.247s] [74/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_NEDArray_message.cpp.o
+[15.507s] [75/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_BodyForceRequest_message.cpp.o
+[15.590s] [76/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_NavigationStatus_message.cpp.o
+[16.168s] [77/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_BodyVelocityRequest_message.cpp.o
+[21.387s] [78/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_VehiclePoseArray_message.cpp.o
+[22.051s] [79/80] Building CXX object CMakeFiles/auv_msgs_matlab.dir/src/auv_msgs_WorldWaypointRequest_message.cpp.o
+[23.337s] [80/80] Linking CXX shared library libauv_msgs_matlab.so
+[23.339s] Invoked command in '/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs' returned '0': AMENT_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib${LD_LIBRARY_PATH} PS1=(venv) /usr/local/MATLAB/R2023a/bin/glnxa64/cmake/bin/cmake --build /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs -- -j6 -l6
+[23.368s] Invoking command in '/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs': AMENT_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib${LD_LIBRARY_PATH} PS1=(venv) /usr/local/MATLAB/R2023a/bin/glnxa64/cmake/bin/cmake --install /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs
+[23.370s] -- Install configuration: "Release"
+[23.370s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/auv_msgs
+[23.370s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs
+[23.370s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg
+[23.370s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/ned.h
+[23.370s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail
+[23.371s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__type_support.h
+[23.371s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__functions.h
+[23.371s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__functions.h
+[23.371s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__struct.h
+[23.371s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__functions.h
+[23.371s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__functions.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__type_support.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__type_support.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__struct.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__functions.c
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__struct.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__type_support.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__functions.c
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__struct.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__functions.c
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__struct.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__functions.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__type_support.h
+[23.372s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__functions.c
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__functions.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__functions.c
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__functions.c
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__type_support.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__functions.c
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__functions.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__type_support.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__struct.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__type_support.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__functions.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__struct.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__functions.c
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__struct.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/body_force_request.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/body_velocity_request.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/navigation_status.h
+[23.373s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/vehicle_pose.h
+[23.374s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/vehicle_pose_array.h
+[23.374s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/ned_array.h
+[23.374s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/world_waypoint_request.h
+[23.377s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/environment/library_path.sh
+[23.377s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/environment/library_path.dsv
+[23.377s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs__rosidl_generator_c.so
+[23.378s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs
+[23.378s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg
+[23.378s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail
+[23.379s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__rosidl_typesupport_fastrtps_c.h
+[23.379s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__rosidl_typesupport_fastrtps_c.h
+[23.379s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__rosidl_typesupport_fastrtps_c.h
+[23.379s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__rosidl_typesupport_fastrtps_c.h
+[23.379s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__rosidl_typesupport_fastrtps_c.h
+[23.379s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__rosidl_typesupport_fastrtps_c.h
+[23.379s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__rosidl_typesupport_fastrtps_c.h
+[23.380s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__rosidl_typesupport_fastrtps_c.h
+[23.380s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.380s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs__rosidl_typesupport_fastrtps_c.so
+[23.380s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs
+[23.380s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg
+[23.381s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__rosidl_typesupport_fastrtps_cpp.hpp
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/dds_fastrtps
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__rosidl_typesupport_fastrtps_cpp.hpp
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__rosidl_typesupport_fastrtps_cpp.hpp
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__rosidl_typesupport_fastrtps_cpp.hpp
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[23.381s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__rosidl_typesupport_fastrtps_cpp.hpp
+[23.382s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__rosidl_typesupport_fastrtps_cpp.hpp
+[23.382s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.382s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.382s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs
+[23.382s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg
+[23.383s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__rosidl_typesupport_introspection_c.h
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__rosidl_typesupport_introspection_c.h
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__type_support.c
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__type_support.c
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__type_support.c
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__type_support.c
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__rosidl_typesupport_introspection_c.h
+[23.383s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__rosidl_typesupport_introspection_c.h
+[23.384s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__rosidl_typesupport_introspection_c.h
+[23.384s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__rosidl_typesupport_introspection_c.h
+[23.384s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__rosidl_typesupport_introspection_c.h
+[23.384s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__type_support.c
+[23.384s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__type_support.c
+[23.385s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__type_support.c
+[23.385s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__type_support.c
+[23.385s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__rosidl_typesupport_introspection_c.h
+[23.385s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.385s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs__rosidl_typesupport_introspection_c.so
+[23.385s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs__rosidl_typesupport_c.so
+[23.385s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs
+[23.386s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg
+[23.386s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail
+[23.386s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__builder.hpp
+[23.386s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__struct.hpp
+[23.386s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__builder.hpp
+[23.387s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__struct.hpp
+[23.387s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__struct.hpp
+[23.387s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__traits.hpp
+[23.387s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__struct.hpp
+[23.387s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__builder.hpp
+[23.387s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__traits.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__struct.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__traits.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__builder.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__traits.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__traits.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__struct.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__builder.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__traits.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__struct.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__builder.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__builder.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__traits.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__traits.hpp
+[23.388s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__struct.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__builder.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/body_velocity_request.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/body_force_request.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/ned.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/vehicle_pose.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/navigation_status.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/world_waypoint_request.hpp
+[23.389s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/vehicle_pose_array.hpp
+[23.390s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/ned_array.hpp
+[23.390s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs
+[23.390s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg
+[23.390s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail
+[23.390s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__type_support.cpp
+[23.390s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__rosidl_typesupport_introspection_cpp.hpp
+[23.390s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__rosidl_typesupport_introspection_cpp.hpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__type_support.cpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_velocity_request__type_support.cpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/navigation_status__rosidl_typesupport_introspection_cpp.hpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__type_support.cpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/world_waypoint_request__type_support.cpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__type_support.cpp
+[23.391s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned_array__rosidl_typesupport_introspection_cpp.hpp
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/ned__rosidl_typesupport_introspection_cpp.hpp
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__rosidl_typesupport_introspection_cpp.hpp
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__type_support.cpp
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/body_force_request__type_support.cpp
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/msg/detail/vehicle_pose__rosidl_typesupport_introspection_cpp.hpp
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs__rosidl_typesupport_introspection_cpp.so
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs__rosidl_typesupport_cpp.so
+[23.392s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/BodyForceRequest.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/BodyVelocityRequest.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/NED.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/NEDArray.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/NavigationStatus.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/VehiclePose.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/VehiclePoseArray.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/WorldWaypointRequest.idl
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/BodyForceRequest.msg
+[23.393s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/BodyVelocityRequest.msg
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/NED.msg
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/NEDArray.msg
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/NavigationStatus.msg
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/VehiclePose.msg
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/VehiclePoseArray.msg
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/msg/WorldWaypointRequest.msg
+[23.394s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include
+[23.394s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/include/auv_msgs/visibility_control.h
+[23.394s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib/libauv_msgs_matlab.so
+[23.404s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m/
+[23.405s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros
+[23.405s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[23.405s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[23.405s] -- Up-to-date: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[23.405s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_VehiclePose_2To1_Converter.m
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_NED_1To2_Converter.m
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_BodyForceRequest_2To1_Converter.m
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_VehiclePoseArray_1To2_Converter.m
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_NEDArray_1To2_Converter.m
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_WorldWaypointRequest_2To1_Converter.m
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_NED_2To1_Converter.m
+[23.406s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/vehiclePoseArray.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_BodyVelocityRequest_2To1_Converter.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/vehiclePose.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_WorldWaypointRequest_1To2_Converter.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_NavigationStatus_2To1_Converter.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/bodyVelocityRequest.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_BodyForceRequest_1To2_Converter.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/nEDArray.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/navigationStatus.m
+[23.407s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/bodyForceRequest.m
+[23.408s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_BodyVelocityRequest_1To2_Converter.m
+[23.408s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_NEDArray_2To1_Converter.m
+[23.408s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/worldWaypointRequest.m
+[23.408s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/nED.m
+[23.408s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_VehiclePose_1To2_Converter.m
+[23.408s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_NavigationStatus_1To2_Converter.m
+[23.408s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+auv_msgs/auv_msgs_msg_VehiclePoseArray_2To1_Converter.m
+[23.409s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/auv_msgs
+[23.409s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/auv_msgs
+[23.409s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/environment/ament_prefix_path.sh
+[23.409s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/environment/ament_prefix_path.dsv
+[23.409s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/environment/path.sh
+[23.410s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/environment/path.dsv
+[23.410s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/local_setup.bash
+[23.410s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/local_setup.sh
+[23.410s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/local_setup.zsh
+[23.411s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/local_setup.dsv
+[23.411s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/package.dsv
+[23.411s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/auv_msgs
+[23.411s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_generator_cExport.cmake
+[23.411s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_generator_cExport-release.cmake
+[23.411s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.412s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[23.412s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_cExport.cmake
+[23.412s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_cExport-release.cmake
+[23.412s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_generator_cppExport.cmake
+[23.412s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.418s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[23.422s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_cppExport.cmake
+[23.422s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgs__rosidl_typesupport_cppExport-release.cmake
+[23.422s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/rosidl_cmake-extras.cmake
+[23.422s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.423s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.423s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.423s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.423s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.423s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.424s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgsConfig.cmake
+[23.424s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/cmake/auv_msgsConfig-version.cmake
+[23.424s] -- Installing: /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/share/auv_msgs/package.xml
+[23.424s] Invoked command in '/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs' returned '0': AMENT_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/install/lib${LD_LIBRARY_PATH} PS1=(venv) /usr/local/MATLAB/R2023a/bin/glnxa64/cmake/bin/cmake --install /media/mbat/SSD120G/MATLAB/identification/marine-robotics-course/matlab_msg_gen/glnxa64/build/auv_msgs

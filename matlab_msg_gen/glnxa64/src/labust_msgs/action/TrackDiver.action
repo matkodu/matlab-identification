@@ -1,0 +1,38 @@
+### The goal
+# Parameters
+float32 radius
+float32 vertical_offset
+geometry_msgs/Point guidance_target
+
+# Decision flags
+bool guidance_enable
+bool wrapping_enable
+bool streamline_orientation
+bool fov_guidance
+
+# Topics
+string guidance_topic
+string radius_topic
+---
+## The result
+bool success
+---
+## The feedback
+# Desired monitoring position
+float64 mu_r
+# Desired guidance position
+float64 gamma_r
+# Operational radius
+float64 operational_radius
+# Desired heading towards diver
+float64 delta_r
+# Desired heading for v=0
+float64 zeta_r
+# Tracking error
+geometry_msgs/Vector3 ned_tracking_error
+
+
+
+
+ 
+

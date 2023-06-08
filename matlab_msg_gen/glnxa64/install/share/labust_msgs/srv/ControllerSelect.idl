@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/ControllerSelect.srv
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module srv {
+    module ControllerSelect_Request_Constants {
+      const uint8 DISABLED = 0;
+      const uint8 MANUAL = 1;
+      const uint8 EXTERNAL = 2;
+      const uint8 TRACKING = 3;
+      const uint8 ACTIVATE = 2;
+      const uint8 DEACTIVATE = 3;
+    };
+    @verbatim (language="comment", text=
+      " The controller must not publish anything when disabled")
+    struct ControllerSelect_Request {
+      @verbatim (language="comment", text=
+        " List of controller names")
+      sequence<string> name;
+
+      @verbatim (language="comment", text=
+        " List of enable/disable actions")
+      sequence<int32> state;
+    };
+    struct ControllerSelect_Response {
+      @verbatim (language="comment", text=
+        " List of controllers")
+      sequence<string> name;
+
+      @verbatim (language="comment", text=
+        " List of successful actions")
+      sequence<boolean> success;
+    };
+  };
+};

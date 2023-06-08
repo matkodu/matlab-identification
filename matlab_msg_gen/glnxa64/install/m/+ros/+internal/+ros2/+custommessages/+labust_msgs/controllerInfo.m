@@ -1,0 +1,30 @@
+function [data, info] = controllerInfo
+%ControllerInfo gives an empty data for labust_msgs/ControllerInfo
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'labust_msgs/ControllerInfo';
+[data.DISABLED, info.DISABLED] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 0, [NaN]);
+[data.MANUAL, info.MANUAL] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 1, [NaN]);
+[data.EXTERNAL, info.EXTERNAL] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 2, [NaN]);
+[data.TRACKING, info.TRACKING] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 3, [NaN]);
+[data.manual_topic, info.manual_topic] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.external_topic, info.external_topic] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.state_topic, info.state_topic] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.tracking_topic, info.tracking_topic] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.state, info.state] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0);
+info.MessageType = 'labust_msgs/ControllerInfo';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,9);
+info.MatPath{1} = 'DISABLED';
+info.MatPath{2} = 'MANUAL';
+info.MatPath{3} = 'EXTERNAL';
+info.MatPath{4} = 'TRACKING';
+info.MatPath{5} = 'manual_topic';
+info.MatPath{6} = 'external_topic';
+info.MatPath{7} = 'state_topic';
+info.MatPath{8} = 'tracking_topic';
+info.MatPath{9} = 'state';

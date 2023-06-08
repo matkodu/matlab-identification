@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/MissionStatus.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " ROS message used for mission execution status reporting")
+    struct MissionStatus {
+      @verbatim (language="comment", text=
+        " True if any primitive is active")
+      boolean mission_active;
+
+      @verbatim (language="comment", text=
+        " Active primitive name")
+      string active_primitive;
+
+      @verbatim (language="comment", text=
+        " True if mission execution initialized")
+      boolean mission_execution_ready;
+
+      @verbatim (language="comment", text=
+        " True if manual is enabled")
+      boolean manual_enabled;
+    };
+  };
+};

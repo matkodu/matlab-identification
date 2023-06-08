@@ -1,0 +1,35 @@
+function [data, info] = identifyModelResult
+%IdentifyModelResult gives an empty data for labust_msgs/IdentifyModelResult
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'labust_msgs/IdentifyModelResult';
+[data.ident_models, info.ident_models] = ros.internal.ros2.custommessages.labust_msgs.identModel;
+info.ident_models.MLdataType = 'struct';
+info.ident_models.MaxLen = NaN;
+info.ident_models.MinLen = 0;
+info.MessageType = 'labust_msgs/IdentifyModelResult';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,19);
+info.MatPath{1} = 'ident_models';
+info.MatPath{2} = 'ident_models.X';
+info.MatPath{3} = 'ident_models.Y';
+info.MatPath{4} = 'ident_models.Z';
+info.MatPath{5} = 'ident_models.K';
+info.MatPath{6} = 'ident_models.M';
+info.MatPath{7} = 'ident_models.N';
+info.MatPath{8} = 'ident_models.MODEL_TF';
+info.MatPath{9} = 'ident_models.MODEL_SS';
+info.MatPath{10} = 'ident_models.model_type';
+info.MatPath{11} = 'ident_models.dof';
+info.MatPath{12} = 'ident_models.tf_num';
+info.MatPath{13} = 'ident_models.tf_den';
+info.MatPath{14} = 'ident_models.ss_dim_n';
+info.MatPath{15} = 'ident_models.ss_dim_m';
+info.MatPath{16} = 'ident_models.ss_mat_a';
+info.MatPath{17} = 'ident_models.ss_mat_b';
+info.MatPath{18} = 'ident_models.ss_mat_c';
+info.MatPath{19} = 'ident_models.ss_mat_d';

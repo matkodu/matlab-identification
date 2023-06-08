@@ -1,0 +1,6 @@
+
+uint8 SUCCESS = 0
+uint8 MISSING_DEPENDENCY = 1
+uint8 ALREADY_REGISTERED = 2
+
+uint8 reply

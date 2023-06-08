@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/ControllerState.msg
+// generated code does not contain a copyright notice
+
+#include "labust_msgs/msg/ControllerInfo.idl"
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " The whole controller vector with <name,info> pair" "\n"
+      " The name and info vectors must be the same length" "\n"
+      " The controller name must be unique")
+    struct ControllerState {
+      sequence<string> name;
+
+      sequence<labust_msgs::msg::ControllerInfo> info;
+    };
+  };
+};

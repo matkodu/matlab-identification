@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/PointerPrimitiveService.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module labust_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Parameters")
+    struct PointerPrimitiveService_Request {
+      float radius;
+
+      float vertical_offset;
+
+      geometry_msgs::msg::Point guidance_target;
+
+      @verbatim (language="comment", text=
+        " Decision flags")
+      boolean guidance_enable;
+
+      boolean wrapping_enable;
+
+      boolean fov_guidance;
+
+      boolean streamline_orientation;
+
+      @verbatim (language="comment", text=
+        " Topics")
+      string guidance_topic;
+
+      string radius_topic;
+    };
+    struct PointerPrimitiveService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};

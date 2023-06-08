@@ -1,0 +1,44 @@
+function ros1msg = labust_msgs_msg_NavStsReq_2To1_Converter(message,ros1msg)
+%labust_msgs_msg_NavStsReq_2To1_Converter passes data of ROS 2 message to ROS message.
+% Copyright 2019 The MathWorks, Inc.    
+ros1msg.Header.Stamp.Sec = message.header.stamp.sec;
+ros1msg.Header.Stamp.Nsec = message.header.stamp.nanosec;
+ros1msg.Header.FrameId = message.header.frame_id{1};
+ros1msg.GlobalPosition.Latitude = message.global_position.latitude;
+ros1msg.GlobalPosition.Longitude = message.global_position.longitude;
+ros1msg.GlobalPosition.Altitude = message.global_position.altitude;
+ros1msg.Origin.Latitude = message.origin.latitude;
+ros1msg.Origin.Longitude = message.origin.longitude;
+ros1msg.Origin.Altitude = message.origin.altitude;
+ros1msg.Goal.Requester = message.goal.requester{1};
+ros1msg.Goal.Id = message.goal.id;
+ros1msg.Goal.Priority = message.goal.priority;
+ros1msg.Position.North = message.position.north;
+ros1msg.Position.East = message.position.east;
+ros1msg.Position.Depth = message.position.depth;
+ros1msg.Altitude = message.altitude;
+ros1msg.BodyVelocity.X = message.body_velocity.x;
+ros1msg.BodyVelocity.Y = message.body_velocity.y;
+ros1msg.BodyVelocity.Z = message.body_velocity.z;
+ros1msg.GbodyVelocity.X = message.gbody_velocity.x;
+ros1msg.GbodyVelocity.Y = message.gbody_velocity.y;
+ros1msg.GbodyVelocity.Z = message.gbody_velocity.z;
+ros1msg.Orientation.Roll = message.orientation.roll;
+ros1msg.Orientation.Pitch = message.orientation.pitch;
+ros1msg.Orientation.Yaw = message.orientation.yaw;
+ros1msg.OrientationRate.Roll = message.orientation_rate.roll;
+ros1msg.OrientationRate.Pitch = message.orientation_rate.pitch;
+ros1msg.OrientationRate.Yaw = message.orientation_rate.yaw;
+ros1msg.PositionTolerance.X = message.position_tolerance.x;
+ros1msg.PositionTolerance.Y = message.position_tolerance.y;
+ros1msg.PositionTolerance.Z = message.position_tolerance.z;
+ros1msg.OrientationTolerance.Roll = message.orientation_tolerance.roll;
+ros1msg.OrientationTolerance.Pitch = message.orientation_tolerance.pitch;
+ros1msg.OrientationTolerance.Yaw = message.orientation_tolerance.yaw;
+ros1msg.DisableAxis.X = message.disable_axis.x;
+ros1msg.DisableAxis.Y = message.disable_axis.y;
+ros1msg.DisableAxis.Z = message.disable_axis.z;
+ros1msg.DisableAxis.Roll = message.disable_axis.roll;
+ros1msg.DisableAxis.Pitch = message.disable_axis.pitch;
+ros1msg.DisableAxis.Yaw = message.disable_axis.yaw;
+end

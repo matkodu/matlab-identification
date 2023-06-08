@@ -1,0 +1,32 @@
+function [data, info] = nuReference
+%NuReference gives an empty data for labust_msgs/NuReference
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'labust_msgs/NuReference';
+[data.header, info.header] = ros.internal.ros2.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.identity_token, info.identity_token] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.reference, info.reference] = ros.internal.ros2.messages.geometry_msgs.twist;
+info.reference.MLdataType = 'struct';
+info.MessageType = 'labust_msgs/NuReference';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,15);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.stamp';
+info.MatPath{3} = 'header.stamp.sec';
+info.MatPath{4} = 'header.stamp.nanosec';
+info.MatPath{5} = 'header.frame_id';
+info.MatPath{6} = 'identity_token';
+info.MatPath{7} = 'reference';
+info.MatPath{8} = 'reference.linear';
+info.MatPath{9} = 'reference.linear.x';
+info.MatPath{10} = 'reference.linear.y';
+info.MatPath{11} = 'reference.linear.z';
+info.MatPath{12} = 'reference.angular';
+info.MatPath{13} = 'reference.angular.x';
+info.MatPath{14} = 'reference.angular.y';
+info.MatPath{15} = 'reference.angular.z';

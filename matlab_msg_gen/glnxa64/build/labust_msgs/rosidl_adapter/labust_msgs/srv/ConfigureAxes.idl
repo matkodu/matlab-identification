@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/ConfigureAxes.srv
+// generated code does not contain a copyright notice
+
+#include "labust_msgs/msg/Bool6Axis.idl"
+
+module labust_msgs {
+  module srv {
+    module ConfigureAxes_Request_Constants {
+      const int32 U = 0;
+      const int32 V = 1;
+      const int32 W = 2;
+      const int32 P = 3;
+      const int32 Q = 4;
+      const int32 R = 5;
+      const int32 X = 0;
+      const int32 Y = 1;
+      const int32 Z = 2;
+      const int32 K = 3;
+      const int32 M = 4;
+      const int32 N = 5;
+    };
+    @verbatim (language="comment", text=
+      "Operation modes")
+    struct ConfigureAxes_Request {
+      labust_msgs::msg::Bool6Axis disable_axis;
+    };
+    struct ConfigureAxes_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

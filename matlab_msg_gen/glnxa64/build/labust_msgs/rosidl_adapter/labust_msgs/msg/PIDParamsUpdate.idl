@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/PIDParamsUpdate.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    module PIDParamsUpdate_Constants {
+      const int32 SURGE = 0;
+      const int32 SWAY = 1;
+      const int32 HEAVE = 2;
+      const int32 ROLL = 3;
+      const int32 PITCH = 4;
+      const int32 YAW = 5;
+    };
+    struct PIDParamsUpdate {
+      @verbatim (language="comment", text=
+        "The PID parameters" "\n"
+        " Proportional gain")
+      float kp;
+
+      @verbatim (language="comment", text=
+        " Integral gain")
+      float ki;
+
+      @verbatim (language="comment", text=
+        " Derivative gain")
+      float kd;
+
+      float b;
+
+      float ulow;
+
+      float uhigh;
+
+      float ilow;
+
+      float ihigh;
+
+      @verbatim (language="comment", text=
+        " Optional DOF id")
+      int32 dof;
+    };
+  };
+};

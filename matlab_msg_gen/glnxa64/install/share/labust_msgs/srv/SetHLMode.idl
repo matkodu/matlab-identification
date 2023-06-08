@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/SetHLMode.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PointStamped.idl"
+
+module labust_msgs {
+  module srv {
+    module SetHLMode_Request_Constants {
+      const int32 STOP = 0;
+      const int32 MANUAL = 1;
+      const int32 GOTOPOINT = 2;
+      const int32 STATIONKEEPING = 3;
+      const int32 CIRCLEPOINT = 4;
+      const int32 HEADINGCONTROL = 5;
+      const int32 HEADINGSURGE = 6;
+    };
+    @verbatim (language="comment", text=
+      "The available modes")
+    struct SetHLMode_Request {
+      int32 mode;
+
+      geometry_msgs::msg::PointStamped ref_point;
+
+      @verbatim (language="comment", text=
+        "Circle info")
+      float radius;
+
+      float surge;
+
+      float yaw;
+    };
+    struct SetHLMode_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

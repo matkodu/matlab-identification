@@ -1,0 +1,11 @@
+## DOF accessor
+int32 DISABLED=-1
+int32 X=0
+int32 Y=1
+int32 Z=2
+int32 K=3
+int32 M=4
+int32 N=5
+
+## Main configuration
+labust_msgs/ManualConfiguration configuration

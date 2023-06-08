@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from labust_msgs/msg/ISO.msg
+// generated code does not contain a copyright notice
+
+
+module labust_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " ISO primitive structure")
+    struct ISO {
+      @verbatim (language="comment", text=
+        " Desired DOF to identify")
+      int32 dof;
+
+      @verbatim (language="comment", text=
+        " Output force/torque to command in the relay")
+      float command;
+
+      @verbatim (language="comment", text=
+        " Hysteresis of the control relay")
+      float hysteresis;
+
+      @verbatim (language="comment", text=
+        " State value around which to oscilate")
+      float reference;
+
+      @verbatim (language="comment", text=
+        " The desired sampling frequency for operation (Hz)")
+      float sampling_rate;
+    };
+  };
+};

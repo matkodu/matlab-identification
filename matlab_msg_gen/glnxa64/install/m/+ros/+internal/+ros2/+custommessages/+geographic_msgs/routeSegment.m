@@ -1,0 +1,31 @@
+function [data, info] = routeSegment
+%RouteSegment gives an empty data for geographic_msgs/RouteSegment
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'geographic_msgs/RouteSegment';
+[data.id, info.id] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.id.MLdataType = 'struct';
+[data.start, info.start] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.start.MLdataType = 'struct';
+[data.end, info.end] = ros.internal.ros2.messages.unique_identifier_msgs.uUID;
+info.end.MLdataType = 'struct';
+[data.props, info.props] = ros.internal.ros2.custommessages.geographic_msgs.keyValue;
+info.props.MLdataType = 'struct';
+info.props.MaxLen = NaN;
+info.props.MinLen = 0;
+info.MessageType = 'geographic_msgs/RouteSegment';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,9);
+info.MatPath{1} = 'id';
+info.MatPath{2} = 'id.uuid';
+info.MatPath{3} = 'start';
+info.MatPath{4} = 'start.uuid';
+info.MatPath{5} = 'end';
+info.MatPath{6} = 'end.uuid';
+info.MatPath{7} = 'props';
+info.MatPath{8} = 'props.key';
+info.MatPath{9} = 'props.value';

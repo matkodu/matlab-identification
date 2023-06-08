@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from labust_msgs/srv/Go2pointPrimitiveService.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module labust_msgs {
+  module srv {
+    struct Go2pointPrimitiveService_Request {
+      boolean fully_actuated_enable;
+
+      geometry_msgs::msg::Point point;
+
+      float heading;
+
+      float speed;
+
+      float victory_radius;
+
+      boolean north_enable;
+
+      boolean east_enable;
+
+      boolean depth_enable;
+
+      boolean heading_enable;
+
+      boolean altitude_enable;
+
+      string heading_topic;
+
+      string speed_topic;
+    };
+    struct Go2pointPrimitiveService_Response {
+      @verbatim (language="comment", text=
+        " Status of activation")
+      boolean status;
+    };
+  };
+};
